@@ -5,6 +5,7 @@ import '../styles/reset.css';
 import '../styles/index.css';
 
 import Header from "./Header/Header";
+import Accueil from "../pages/Accueil/Accueil";
 import Error from "../pages/Error/Error";
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
     <div id="app">
       <Header />
       <Routes>
-        <Route path="/" element={<Error />}></Route>
+        <Route path="/" element={<Accueil />}></Route>
         <Route path="/*" element={<Error />}></Route>
       </Routes>
 
