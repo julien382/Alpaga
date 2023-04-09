@@ -10,10 +10,11 @@ const Header = () => {
         <header className='header'>
             <Link to="/"><img className='logo' src={logo} alt="logo Wealth Health" /></Link>
             <div className='containerNav'>
-                <h1 className='nameSite'>HRnet</h1>
                 <nav>
-                    <Link className='link' to="/">Create employee</Link>
-                    <Link className='link' to="/employees">Current employees</Link>
+                    <Link className='link' to="/">Accueil</Link>
+                    <Link className='link' to="/alimentation">Alimentation</Link>
+                    <Link className='link' to="/race">Race</Link>
+                    <Link className='link' to="/elevage">L'élevage</Link>
                 </nav>
 
             </div>
