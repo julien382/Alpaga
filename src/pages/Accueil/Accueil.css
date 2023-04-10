@@ -83,3 +83,37 @@
 .part2_alpagaImage{
     width: 650px;
 }
+
+/* --- part3 --- */
+
+.part3_Accueil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.part3_Paragraphe1{
+    text-align: right;
+    color: #E0D4B4;
+    font-size: 30px;
+    width: 350px;
+    margin: 25px;
+}
+
+.part3_Paragraphe2{
+    text-align: center;
+    color: #8B5E3C;
+    font-size: 30px;
+    width: 350px;
+    margin: 25px;
+}
+
+.part3_Paragraphe3{
+    text-align: left;
+    color: #E0D4B4;
+    font-size: 30px;
+    width: 350px;
+    margin: 25px;
+}

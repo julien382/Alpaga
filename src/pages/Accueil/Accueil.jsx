@@ -23,7 +23,9 @@ const Accueil = () => {
                 <img className='part2_alpagaImage' src={alpagaBrown} alt="alpagaBrown" />
             </div>
             <div className='part3_Accueil'>
-                
+                <p className='part3_Paragraphe1'>Les alpagas sont des animaux domestiques originaires des Andes du Sud-Amérique, ils sont proches cousins des lamas, des guanacos et des vigognes.</p>
+                <p className='part3_Paragraphe2'>Les alpagas sont des animaux domestiques originaires des Andes du Sud-Amérique, ils sont proches cousins des lamas, des guanacos et des vigognes.</p>
+                <p className='part3_Paragraphe3'>Les alpagas sont des animaux domestiques originaires des Andes du Sud-Amérique, ils sont proches cousins des lamas, des guanacos et des vigognes.</p>
             </div>
             
         </div>
