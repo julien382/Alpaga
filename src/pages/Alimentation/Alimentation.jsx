@@ -1,5 +1,5 @@
 import './Alimentation.css'
-import alpagaMain from "../../assets/mainAlpaga.png";
+import alpagaMain from "../../assets/alpagaAlimentation.png";
 import alpagaBrown from "../../assets/alpagaBrown.png";
 
 const Alimentation = () => {
@@ -7,12 +7,12 @@ const Alimentation = () => {
 
     return (
         <div className='alimentation'>
-            <div className='part1_Accueil'>
-                <img className='alpagaMain' src={alpagaMain} alt="alpagaMain" />
-                <div className='partTexteAccueil'>
-                    <h1 className='titleAccueil font color1'>Alimentation</h1>
-                    <p className='paragrapheTitleAccueil'>Les alpagas sont des animaux domestiques originaires des Andes du Sud-Amérique, ils sont proches cousins des lamas, <span className='font color2'>des guanacos et des vigognes.</span></p>
+            <div className='part1_Alimentation'>
+                <div className='partTexteAlimentation'>
+                    <h1 className='titleAlimentation font color1'>Alimentation</h1>
+                    <p className='paragrapheTitleAlimentation'>Les alpagas sont des animaux herbivores qui ont besoin d'une alimentation équilibrée et nutritive pour maintenir leur santé et leur bien-être.</p>
                 </div>
+                <img className='alpagaMainAlimentation' src={alpagaMain} alt="alpagaMain" />
             </div>
             <div className='part2_Accueil'>
                 <div className='part2_textContainer'>

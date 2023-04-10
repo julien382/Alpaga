@@ -1,0 +1,44 @@
+.part1_Alimentation{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 250px;
+}
+
+.alpagaMainAlimentation{
+    width: 800px;
+    transition: transform 0.5s ease;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.alpagaMainAlimentation:hover{
+    transform: scale(1.1);
+}
+
+.partTexteAlimentation{
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 800px;
+}
+
+.titleAlimentation{
+    font-size: 80px;
+    margin-bottom: 35px;
+}
+
+.paragrapheTitleAlimentation{
+    font-size: 40px;
+    animation: slide-inText 2s ease forwards;
+}
+
+@keyframes slide-inText {
+    0% {
+      transform: translateX(0%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+}
