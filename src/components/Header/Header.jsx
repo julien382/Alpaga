@@ -1,13 +1,35 @@
 import './Header.css'
 
+import React, { useState, useEffect } from "react";
+
 import { Link } from "react-router-dom";
 import logoAlpaga from "../../assets/logoAlpaga.png";
 
 const Header = () => {
+    const [lastScrollY, setLastScrollY] = useState(0);
+    const [showHeader, setShowHeader] = useState(true);
+
+    useEffect(() => {
+        function handleScroll() {
+        const currentScrollY = window.scrollY;
+        if (currentScrollY > lastScrollY) {
+            setShowHeader(false);
+        } else {
+            setShowHeader(true);
+        }
+        setLastScrollY(currentScrollY);
+        }
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+        window.removeEventListener('scroll', handleScroll);
+        };
+    }, [lastScrollY]);
 
 
     return (
-        <header className='header'>
+        <header className={showHeader  ? "header" : "header hide"}>
             <Link to="/" className='logo'>
                 <img className='logoAlpaga' src={logoAlpaga} alt="logoAlpaga" />
                 <p className='logotexte font color2'>Alpaga</p>
