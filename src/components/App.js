@@ -19,10 +19,10 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Alpaga />} />
-        <Route path="/:alimentation" element={<Alimentation />} />
-        <Route path="/:race" element={<Alimentation />} />
-        <Route path="/:elevage" element={<Alimentation />} />
-        <Route path="/:production" element={<Alimentation />} />
+        <Route path="/alimentation" element={<Alimentation />} />
+        <Route path="/race" element={<Alimentation />} />
+        <Route path="/elevage" element={<Alimentation />} />
+        <Route path="/production" element={<Alimentation />} />
         <Route path="/*" element={<Error />} />
         <Route path="/lama" element={<Lama />} />
       </Routes>
