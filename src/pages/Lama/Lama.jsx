@@ -1,8 +1,8 @@
-import './Accueil.css'
+import './Lama.css'
 import alpagaMain from "../../assets/mainAlpaga.png";
 import alpagaBrown from "../../assets/alpagaBrown.png";
 
-const Accueil = () => {
+const Lama = () => {
 
 
     return (
@@ -10,7 +10,7 @@ const Accueil = () => {
             <div className='part1_Accueil'>
                 <img className='alpagaMain' src={alpagaMain} alt="alpagaMain" />
                 <div className='partTexteAccueil'>
-                    <h1 className='titleAccueil font color1'>Alpaga</h1>
+                    <h1 className='titleAccueil font color1'>Lama</h1>
                     <p className='paragrapheTitleAccueil'>Les alpagas sont des animaux domestiques originaires des Andes du Sud-Amérique, ils sont proches cousins des lamas, <span className='font color2'>des guanacos et des vigognes.</span></p>
                 </div>
             </div>
@@ -32,4 +32,4 @@ const Accueil = () => {
     )
 }
 
-export default Accueil
+export default Lama

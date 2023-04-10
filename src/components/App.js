@@ -7,8 +7,10 @@ import '../styles/index.css';
 import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
 
-import Accueil from "../pages/Accueil/Accueil";
 import Error from "../pages/Error/Error";
+import Alpaga from "../pages/Alpaga/Alpaga";
+import Lama from "../pages/Lama/Lama";
+import Alimentation from "../pages/Alimentation/Alimentation";
 
 function App() {
 
@@ -16,8 +18,13 @@ function App() {
     <div id="app">
       <Header />
       <Routes>
-        <Route path="/" element={<Accueil />}></Route>
-        <Route path="/*" element={<Error />}></Route>
+        <Route path="/" element={<Alpaga />} />
+        <Route path="/:alimentation" element={<Alimentation />} />
+        <Route path="/:race" element={<Alimentation />} />
+        <Route path="/:elevage" element={<Alimentation />} />
+        <Route path="/:production" element={<Alimentation />} />
+        <Route path="/*" element={<Error />} />
+        <Route path="/lama" element={<Lama />} />
       </Routes>
       <Footer />
 
