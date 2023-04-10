@@ -37,7 +37,7 @@
     margin-right: 50px;
 }
 
-.link {
+.linkHeader{
     display: inline-block;
     padding: 10px 20px;
     border: 2px solid #8B5E3C;
@@ -50,13 +50,13 @@
     margin-left: 25px;
 }
   
-.link:hover {
+.linkHeader:hover{
     background-color: #E0D4B4;
     color: #ffffff;
     border-color: #ffffff;
 }
 
-.linkLama {
+.linkLama{
     display: inline-block;
     padding: 10px 20px;
     border: 2px solid #8B5E3C;
@@ -69,7 +69,7 @@
     margin-left: 70px;
 }
   
-.linkLama:hover {
+.linkLama:hover{
     background-color: #E0D4B4;
     color: #ffffff;
     border-color: #ffffff;

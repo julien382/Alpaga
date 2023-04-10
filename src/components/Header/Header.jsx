@@ -14,10 +14,10 @@ const Header = () => {
             </Link>
             <div className='containerNav'>
                 <nav>
-                    <Link className='link' to="/alimentation">Alimentation</Link>
-                    <Link className='link' to="/race">Race</Link>
-                    <Link className='link' to="/elevage">L'élevage</Link>
-                    <Link className='link' to="/production">Production</Link>
+                    <Link className='linkHeader' to="/alimentation">Alimentation</Link>
+                    <Link className='linkHeader' to="/race">Race</Link>
+                    <Link className='linkHeader' to="/elevage">L'élevage</Link>
+                    <Link className='linkHeader' to="/production">Production</Link>
 
                     <Link className='linkLama' to="lama">Lama</Link>
                 </nav>
