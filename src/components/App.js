@@ -11,6 +11,7 @@ import Error from "../pages/Error/Error";
 import Alpaga from "../pages/Alpaga/Alpaga";
 import Lama from "../pages/Lama/Lama";
 import Alimentation from "../pages/Alimentation/Alimentation";
+import Race from "../pages/Race/Race";
 import Production from "../pages/Production/Production";
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Alpaga />} />
         <Route path="/alimentation" element={<Alimentation />} />
-        <Route path="/race" element={<Alimentation />} />
+        <Route path="/race" element={<Race />} />
         <Route path="/elevage" element={<Alimentation />} />
         <Route path="/production" element={<Production />} />
         <Route path="/*" element={<Error />} />

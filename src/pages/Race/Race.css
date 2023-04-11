@@ -1,0 +1,86 @@
+.part1_race{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 250px;
+}
+
+.alpagaMainRace{
+    width: 800px;
+    transition: transform 0.5s ease;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.alpagaMainRace:hover{
+    transform: scale(1.1);
+}
+
+.partTexteRace{
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 600px;
+}
+
+.titleRace{
+    font-size: 80px;
+    margin-bottom: 35px;
+}
+
+.paragrapheTitleRace{
+    font-size: 40px;
+    animation: slide-inText 2s ease forwards;
+}
+
+/* --- part2 --- */
+.part2_race{
+    background-color: #8B5E3C;
+    padding: 50px;
+}
+
+.containerHuacanyas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.part2_race_Paragraphe1{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    width: 800px;
+    margin: 25px;
+}
+
+.containerSuris{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.alpagaHuacanyas{
+    width: 400px;
+}
+
+.alpagaSuris{
+    width: 400px;
+}
+
+.part2_race_Paragraphe2{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    width: 800px;
+    margin: 25px;
+}
+
+@keyframes slide-inText {
+    0% {
+      transform: translateX(0%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+}
