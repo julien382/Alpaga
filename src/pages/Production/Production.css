@@ -30,4 +30,33 @@
 .selected {
     border: 3px solid blue;
 }
+
+/* --- game --- */
+
+.gameContainer{
+    margin-bottom: 150px;
+}
+
+.picturesGame{
+    display: flex;
+}
+
+.pictureGame{
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    background-color: #E0D4B4;
+    border-radius: 25px;
+    transition: all 0.2s ease-in-out;
+}
   
+.pictureGame:hover {
+    border-color: #f00;
+    transform: scale(1.1);
+}
+
+.scoreBoardWin{
+    font-size: 32px;
+    font-weight: bold;
+}

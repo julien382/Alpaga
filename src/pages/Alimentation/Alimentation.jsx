@@ -1,6 +1,5 @@
 import './Alimentation.css'
 import alpagaMain from "../../assets/alpagaAlimentation.png";
-import alpagaBrown from "../../assets/alpagaBrown.png";
 
 const Alimentation = () => {
 
