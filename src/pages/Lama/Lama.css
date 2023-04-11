@@ -84,36 +84,59 @@
     width: 650px;
 }
 
-/* --- part3 --- */
+/* --- gameChoice --- */
 
-.part3_Accueil{
+.gameChoice{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    justify-content: center;
+    padding: 50px;
 }
 
-.part3_Paragraphe1{
-    text-align: right;
+.containerScoreBoard{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.scoreBoardWin{
     color: #E0D4B4;
-    font-size: 30px;
-    width: 350px;
-    margin: 25px;
+    font-size: 50px;
+    font-weight: bold;
 }
 
-.part3_Paragraphe2{
-    text-align: center;
+.titleGame{
     color: #8B5E3C;
-    font-size: 30px;
-    width: 350px;
-    margin: 25px;
+    font-size: 60px;
+    font-weight: bold;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
-.part3_Paragraphe3{
-    text-align: left;
+.scoreBoardLoose{
     color: #E0D4B4;
-    font-size: 30px;
-    width: 350px;
-    margin: 25px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.picturesGame{
+    display: flex;
+}
+
+.pictureGame{
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    background-color: #E0D4B4;
+    border-radius: 25px;
+    transition: all 0.2s ease-in-out;
+    margin: 50px;
+}
+  
+.pictureGame:hover {
+    border-color: #f00;
+    transform: scale(1.1);
 }
