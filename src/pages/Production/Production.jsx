@@ -10,18 +10,25 @@ const images = [
 
 const Production = () => {
 
-  const [score, setScore] = useState(0);
+  const [scoreWin, setScoreWin] = useState(0);
+  const [scoreLoose, setScoreLoose] = useState(0);
 
   const handleImageClick = (image) => {
     if (image.isCorrect) {
-      setScore(score + 1);
+      setScoreWin(scoreWin + 1);
+    }
+    else{
+      setScoreLoose(scoreLoose + 1);
     }
   };
   
   return (
     <div className='gameContainer'>
-      <p className='scoreBoardWin'>Score: {score}</p>
-      <p className='scoreBoardLoose'>Score: {score}</p>
+      <div className='containerScoreBoard'>
+        <p className='scoreBoardWin font'>V: {scoreWin}</p>
+        <p className='titleGame font'>Trouve l'alpaga:</p>
+        <p className='scoreBoardLoose font'>X: {scoreLoose}</p>
+      </div>
       <div className='picturesGame'>
         {images.map((image) => (
           <img
