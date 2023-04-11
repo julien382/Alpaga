@@ -32,6 +32,40 @@
     animation: slide-inText 2s ease forwards;
 }
 
+/* --- part2 --- */
+.part2_alimentation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8B5E3C;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.part2_alimentation_Paragraphe1{
+    text-align: right;
+    color: white;
+    font-size: 30px;
+    width: 350px;
+    margin: 25px;
+}
+
+.part2_alimentation_Paragraphe2{
+    text-align: center;
+    color: #E0D4B4;
+    font-size: 30px;
+    width: 350px;
+    margin: 25px;
+}
+
+.part2_alimentation_Paragraphe3{
+    text-align: left;
+    color: white;
+    font-size: 30px;
+    width: 350px;
+    margin: 25px;
+}
+
 @keyframes slide-inText {
     0% {
       transform: translateX(0%);

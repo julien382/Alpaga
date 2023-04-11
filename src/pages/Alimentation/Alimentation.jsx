@@ -14,20 +14,11 @@ const Alimentation = () => {
                 </div>
                 <img className='alpagaMainAlimentation' src={alpagaMain} alt="alpagaMain" />
             </div>
-            <div className='part2_Accueil'>
-                <div className='part2_textContainer'>
-                    <p className='part2_Paragraphe1'>Les alpagas ont été domestiqués il y a environ 6 000 ans par les peuples indigènes des Andes.</p>
-                    <p className='part2_Paragraphe2'>Les alpagas ont été domestiqués il y a environ 6 000 ans par les peuples indigènes des Andes. </p>
-                    <p className='part2_Paragraphe3'>Il y a beaucoup d'autres aspects intéressants à raconter sur les alpagas, ceci n'est qu'un exemple. Il existe de nombreux aspects intéressants à raconter sur l'histoire, les caractéristiques, les avantages écologiques, les différentes races, la domestication, l'élevage, l'utilisation de leur laine, leur viande, leur lait et bien plus encore.</p>
-                </div>
-                <img className='part2_alpagaImage' src={alpagaBrown} alt="alpagaBrown" />
+            <div className='part2_alimentation'>
+                <p className='part2_alimentation_Paragraphe1'>Le foin ou la paille de qualité supérieure sont la base de leur alimentation, avec une consommation quotidienne d'environ 2 à 3% de leur poids corporel. L'accès à de l'eau propre et fraîche en permanence est également essentiel.</p>
+                <p className='part2_alimentation_Paragraphe2'>En plus du foin, les alpagas peuvent être nourris avec des aliments commerciaux pour alpagas, des suppléments minéraux, des vitamines, des légumes, des fruits et des herbes.</p>
+                <p className='part2_alimentation_Paragraphe3'>Il est important de surveiller attentivement l'état de santé des alpagas et d'adapter leur régime alimentaire en conséquence pour prévenir les problèmes de santé courants.</p>
             </div>
-            <div className='part3_Accueil'>
-                <p className='part3_Paragraphe1'>Les alpagas sont des animaux domestiques originaires des Andes du Sud-Amérique, ils sont proches cousins des lamas, des guanacos et des vigognes.</p>
-                <p className='part3_Paragraphe2'>Les alpagas sont des animaux domestiques originaires des Andes du Sud-Amérique, ils sont proches cousins des lamas, des guanacos et des vigognes.</p>
-                <p className='part3_Paragraphe3'>Les alpagas sont des animaux domestiques originaires des Andes du Sud-Amérique, ils sont proches cousins des lamas, des guanacos et des vigognes.</p>
-            </div>
-            
         </div>
     )
 }
