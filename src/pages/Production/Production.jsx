@@ -1,20 +1,25 @@
 import './Production.css';
 import React, { useEffect, useState } from 'react';
-import mainAlpaga from "../../assets/mainAlpaga.png";
-import alpaca from "../../assets/alpaca-5564884_1280_preview_rev_1.png";
-import alpaga404 from "../../assets/alpaga404.png";
-import alpagaAlimentation from "../../assets/alpagaAlimentation.png";
-import logoAlpaga from "../../assets/logoAlpaga.png";
-import alpagaBrown from "../../assets/alpagaBrown.png";
+import truemainAlpaga from "../../assets/mainAlpaga.png";
+import truealpaca from "../../assets/alpaca-5564884_1280_preview_rev_1.png";
+import truealpaga404 from "../../assets/alpaga404.png";
+import falsemainAlpaga from "../../assets/alpagaAlimentation.png";
+import falsealpaca from "../../assets/logoAlpaga.png";
+import falsealpaga404 from "../../assets/alpagaBrown.png";
 
-const allImages = [
-  { src: mainAlpaga, isCorrect: true },
-  { src: alpaca, isCorrect: false },
-  { src: alpaga404, isCorrect: true },
-  { src: alpagaAlimentation, isCorrect: false },
-  { src: logoAlpaga, isCorrect: true },
-  { src: alpagaBrown, isCorrect: false },
+const allImagesTrue = [
+  { src: truemainAlpaga, isCorrect: true},
+  { src: truealpaca, isCorrect: true},
+  { src: truealpaga404, isCorrect: true},
 ];
+
+const allImagesFalse = [
+  { src: falsemainAlpaga, isCorrect: false},
+  { src: falsealpaca, isCorrect: false},
+  { src: falsealpaga404, isCorrect: false},
+];
+
+
 
 const Production = () => {
 
@@ -37,9 +42,9 @@ const Production = () => {
 
   // Générer un tableau de deux images aléatoires à partir du tableau de toutes les images possibles
   const generateImages = () => {
-    const correctImage = allImages.find(image => image.isCorrect);
-    const incorrectImages = allImages.filter(image => !image.isCorrect).sort(() => 0.5 - Math.random()).slice(0, 1);
-    const selectedImages = [correctImage, ...incorrectImages].sort(() => 0.5 - Math.random());
+    const correctImage = allImagesTrue[Math.floor(Math.random() * allImagesTrue.length)];
+    const incorrectImage = allImagesFalse[Math.floor(Math.random() * allImagesFalse.length)];
+    const selectedImages = [correctImage, incorrectImage].sort(() => 0.5 - Math.random());
     return selectedImages;
   };
 
