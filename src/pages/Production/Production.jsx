@@ -19,8 +19,6 @@ const allImagesFalse = [
   { src: falsealpaga404, isCorrect: false},
 ];
 
-
-
 const Production = () => {
 
   const [scoreWin, setScoreWin] = useState(0);
@@ -53,6 +51,7 @@ const Production = () => {
     const newImages = generateImages();
     setCurrentImages(newImages);
   }, []);
+  
   
   return (
     <div className='gameContainer'>
