@@ -54,3 +54,31 @@
     border-color: #f00;
     transform: scale(1.1);
 }
+
+
+
+/* --- fondu ---*/
+
+.image-container {
+    position: relative;
+    width: 500px;
+    height: 500px;
+  }
+  
+  .image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 600px;
+    object-fit: cover;
+    transition: opacity 1.5s ease-in-out;
+  }
+  
+  .fade-out {
+    opacity: 0;
+  }
+  
+  .fade-in {
+    opacity: 1;
+  }

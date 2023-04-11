@@ -7,6 +7,9 @@ import falsemainAlpaga from "../../assets/alpagaAlimentation.png";
 import falsealpaca from "../../assets/logoAlpaga.png";
 import falsealpaga404 from "../../assets/alpagaBrown.png";
 
+import notTondu from "../../assets/notTondu.png";
+import tondu from "../../assets/tondu.png";
+
 const allImagesTrue = [
   { src: truemainAlpaga, isCorrect: true},
   { src: truealpaca, isCorrect: true},
@@ -51,8 +54,26 @@ const Production = () => {
     const newImages = generateImages();
     setCurrentImages(newImages);
   }, []);
+
+
+
+
+  const [isFaded, setIsFaded] = useState(false);
+  const [currentImage, setCurrentImage] = useState(notTondu);
+
+  const handleClick = () => {
+    setIsFaded(true);
+    setTimeout(() => {
+      if (currentImage === notTondu) {
+        setCurrentImage(tondu);
+      } else {
+        setCurrentImage(notTondu);
+      }
+      setIsFaded(false);
+    }, 500);
+  };
   
-  
+
   return (
     <div className='gameContainer'>
       <div className='containerScoreBoard'>
@@ -74,6 +95,17 @@ const Production = () => {
           <p>{image.isCorrect.toString()}</p>
         ))}
       </div>
+
+
+      <div className="image-container">
+        <img
+          src={currentImage}
+          alt="Image"
+          className={`image ${isFaded ? 'fade-out' : 'fade-in'}`}
+          onClick={handleClick}
+        />
+      </div>
+
     </div>
   );
 }
