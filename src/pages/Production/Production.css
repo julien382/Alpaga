@@ -1,17 +1,99 @@
-/* --- fondu ---*/
+.part1_Production{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 250px;
+}
 
-.tonduFondu{
-  width: 100%;
+.alpagaMainProduction{
+  width: 800px;
+  transition: transform 0.5s ease;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
+.alpagaMainProduction:hover{
+  transform: scale(1.1);
+}
+
+.partTexteProduction{
+  margin-top: 100px;
+  margin-left: 50px;
+  width: 800px;
+}
+
+.titleProduction{
+  font-size: 80px;
+  margin-bottom: 35px;
+}
+
+.paragrapheTitleProduction{
+  font-size: 40px;
+  animation: slide-inText 2s ease forwards;
+}
+
+/* --- part2 --- */
+.part2_production{
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #8B5E3C;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.part2_production_Paragraphe1{
+  text-align: right;
+  color: white;
+  font-size: 30px;
+  width: 500px;
+  margin: 25px;
+}
+
+.part2_production_Paragraphe2{
+  text-align: center;
+  color: #E0D4B4;
+  font-size: 30px;
+  width: 350px;
+  margin: 25px;
+}
+
+.part2_production_Paragraphe3{
+  text-align: left;
+  color: white;
+  font-size: 30px;
+  width: 500px;
+  margin: 25px;
+}
+
+@keyframes slide-inText {
+  0% {
+    transform: translateX(0%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+/* --- tonduFondu ---*/
+
+.tonduFondu{
+  width: 100%;
+}
+
+.titleTonduFondu{
+
+  margin-top: 50px;
+  margin-left: 50px;
+  font-size: 80px;
 }
 
 .image-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80%;
   cursor: url('../../assets/cursorTondeuse.cur'), auto;
 }
 
@@ -25,4 +107,25 @@
 
 .imagetonduFondu{
   width: 200px;
+}
+
+/* --- productionImages ---*/
+
+.productionImages{
+  display: flex;
+  justify-content: center;
+}
+
+.productionImageContainer{
+  width: 400px;
+  height: 400px;
+  margin: 25px;
+  overflow: hidden;
+  border-radius: 50% 20% /10% 40%;
+  background-color: #E0D4B4;
+  position: relative;
+}
+
+.productionImage{
+
 }
