@@ -1,0 +1,29 @@
+.elevage{
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    background-color: #E0D4B4;
+    overflow: hidden;
+    border-radius: 25px;
+  }
+  
+  .image {
+    transition: all 0.2s ease-out;
+    width: 100%;
+    height: 100%;
+    perspective: 1000px;
+    perspective-origin: center;
+  }
+  
+  .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
