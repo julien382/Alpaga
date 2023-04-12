@@ -6,30 +6,28 @@ import tondu from "../../assets/tondu.png";
 
 const Production = () => {
 
-  const [isFaded, setIsFaded] = useState(false);
-  const [currentImage, setCurrentImage] = useState(notTondu);
+  const [imageSrc, setImageSrc] = useState(notTondu);
 
   const handleClick = () => {
-    setIsFaded(true);
-    setTimeout(() => {
-      if (currentImage === notTondu) {
-        setCurrentImage(tondu);
-      } else {
-        setCurrentImage(notTondu);
-      }
-      setIsFaded(false);
-    }, 500);
+    setImageSrc(imageSrc === notTondu ? tondu : notTondu);
   };
   
 
   return (
-    <div className="image-container">
-      <img
-        src={currentImage}
-        alt={currentImage}
-        className={`image ${isFaded ? 'fade-out' : 'fade-in'}`}
-        onClick={handleClick}
-      />
+    <div className='tonduFondu'>
+      <div className="image-container">
+        <img
+          className='imagetonduFondu'
+          src={imageSrc}
+          alt={imageSrc}
+          onClick={handleClick}
+          style={{
+            transition: 'opacity 0.5s ease-in-out',
+            opacity: 1,
+            maxWidth: '100%',
+          }}
+        />
+      </div>
     </div>
   );
 }

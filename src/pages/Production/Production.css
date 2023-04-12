@@ -1,25 +1,28 @@
 /* --- fondu ---*/
 
+.tonduFondu{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .image-container {
-    position: relative;
-    width: 500px;
-    height: 500px;
-  }
-  
-  .image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 400px;
-    height: 600px;
-    object-fit: cover;
-    transition: opacity 1.5s ease-in-out;
-  }
-  
-  .fade-out {
-    opacity: 0;
-  }
-  
-  .fade-in {
-    opacity: 1;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  cursor: url('../../assets/cursorTondeuse.cur'), auto;
+}
+
+.fade-out {
+  opacity: 0;
+}
+
+.fade-in {
+  opacity: 1;
+}
+
+.imagetonduFondu{
+  width: 200px;
+}
