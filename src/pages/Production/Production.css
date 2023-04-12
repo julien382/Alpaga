@@ -113,19 +113,8 @@
 
 .productionImages{
   display: flex;
-  justify-content: center;
-}
-
-.productionImageContainer{
-  width: 400px;
-  height: 400px;
-  margin: 25px;
-  overflow: hidden;
-  border-radius: 50% 20% /10% 40%;
-  background-color: #E0D4B4;
-  position: relative;
-}
-
-.productionImage{
-
+  justify-content: space-around;
+  margin: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
 }

@@ -1,9 +1,14 @@
 import './Production.css';
 import React, { useState } from 'react';
 
+import ImageTracker from '../../components/ImageTracker/ImageTracker';
+
 import alpagaMain from "../../assets/alpagaAlimentation.png";
 import notTondu from "../../assets/notTondu.png";
 import tondu from "../../assets/tondu.png";
+import alpaga from "../../assets/alpaca-4366367_1280.jpg";
+import alpaga2 from "../../assets/alpaca-5564884_1280.jpg";
+import alpaga3 from "../../assets/alpaca-gacb7ec03c_1920.jpg";
 
 const Production = () => {
 
@@ -45,15 +50,9 @@ const Production = () => {
               </div>
             </div>
             <div className='productionImages'>
-              <div className='productionImageContainer'>
-                <img className='productionImage' src={notTondu} alt={notTondu} />
-              </div>
-              <div className='productionImageContainer'>
-                <img className='productionImage' src={notTondu} alt={notTondu} />
-              </div>
-              <div className='productionImageContainer'>
-                <img className='productionImage' src={notTondu} alt={notTondu} />
-              </div>
+              <ImageTracker image={alpaga} />
+              <ImageTracker image={alpaga2} />
+              <ImageTracker image={alpaga3} />
             </div>
         </div>
   );
