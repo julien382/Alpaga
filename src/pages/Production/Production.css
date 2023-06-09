@@ -43,27 +43,20 @@
 }
 
 .part2_production_Paragraphe1{
-  text-align: right;
+  text-align: center;
   color: white;
   font-size: 30px;
-  width: 500px;
-  margin: 25px;
+  width: 700px;
+  margin: 50px;
+  margin-right: 150px;
 }
 
 .part2_production_Paragraphe2{
   text-align: center;
-  color: #E0D4B4;
-  font-size: 30px;
-  width: 350px;
-  margin: 25px;
-}
-
-.part2_production_Paragraphe3{
-  text-align: left;
   color: white;
   font-size: 30px;
-  width: 500px;
-  margin: 25px;
+  width: 300px;
+  margin: 50px;
 }
 
 @keyframes slide-inText {
@@ -114,7 +107,7 @@
 .productionImages{
   display: flex;
   justify-content: space-around;
-  margin: 50px;
+  margin: 100px;
   margin-left: 100px;
   margin-right: 100px;
 }

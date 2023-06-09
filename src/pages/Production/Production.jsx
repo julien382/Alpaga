@@ -29,9 +29,8 @@ const Production = () => {
                 <img className='alpagaMainProduction' src={alpagaMain} alt={alpagaMain} />
             </div>
             <div className='part2_production'>
-                <p className='part2_production_Paragraphe1'>Le foin ou la paille de qualité supérieure sont la base de leur alimentation, avec une consommation quotidienne d'environ 2 à 3% de leur poids corporel. L'accès à de l'eau propre et fraîche en permanence est également essentiel.</p>
-                <p className='part2_production_Paragraphe2'>En plus du foin, les alpagas peuvent être nourris avec des aliments commerciaux pour alpagas, des suppléments minéraux, des vitamines, des légumes, des fruits et des herbes.</p>
-                <p className='part2_production_Paragraphe3'>Il est important de surveiller attentivement l'état de santé des alpagas et d'adapter leur régime alimentaire en conséquence pour prévenir les problèmes de santé courants.</p>
+                <p className='part2_production_Paragraphe1'>Les alpagas produisent une laine de haute qualité et recherchée. La laine d'alpaga est appréciée pour sa douceur, sa légèreté et sa chaleur. Elle peut être transformée en fils, en tissus et en produits finis tels que des vêtements, des accessoires et des articles de décoration.</p>
+                <p className='part2_production_Paragraphe2'> La production de laine d'alpaga implique généralement la tonte régulière des animaux pour récolter leur toison.</p>
             </div>
             <div className='tonduFondu'>
               <h1 className='titleTonduFondu font color1'>Tond l'alpaga :</h1>
