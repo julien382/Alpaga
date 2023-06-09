@@ -55,7 +55,7 @@
 
 .part2_Paragraphe1{
     text-align: center;
-    color: white;
+    color: #E0D4B4;
     font-size: 30px;
     margin-top: 50px;
     margin-left: 150px;
@@ -64,7 +64,7 @@
 
 .part2_Paragraphe2{
     text-align: center;
-    color: #E0D4B4;
+    color: white;
     font-size: 30px;
     margin-top: 100px;
     margin-left: 300px;
@@ -73,15 +73,42 @@
 
 .part2_Paragraphe3{
     text-align: center;
-    color: white;
+    color: #E0D4B4;
     font-size: 30px;
     margin-top: 100px;
     margin-left: 50px;
     width: 750px;
 }
 
+.part2_imageTextContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 1000px;
+    margin-right: 50px;
+}
+
+.part2_Paragraphe4{
+    text-align: center;
+    float: right;
+    color: white;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-right: 150px;
+    width: 400px;
+}
+
 .part2_alpagaImage{
-    width: 650px;
+    width: 500px;
+}
+
+.part2_Paragraphe5{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    width: 550px;
 }
 
 /* --- part3 --- */
@@ -94,26 +121,18 @@
     margin-bottom: 100px;
 }
 
-.part3_Paragraphe1{
-    text-align: right;
-    color: #E0D4B4;
-    font-size: 30px;
-    width: 350px;
-    margin: 25px;
+.part3_alpagaImage1{
+    width: 500px;
 }
 
-.part3_Paragraphe2{
+.part3_Paragraphe1{
     text-align: center;
     color: #8B5E3C;
     font-size: 30px;
-    width: 350px;
+    width: 450px;
     margin: 25px;
 }
 
-.part3_Paragraphe3{
-    text-align: left;
-    color: #E0D4B4;
-    font-size: 30px;
-    width: 350px;
-    margin: 25px;
+.part3_alpagaImage2{
+    width: 500px;
 }

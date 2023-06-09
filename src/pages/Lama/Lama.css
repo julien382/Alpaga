@@ -41,7 +41,7 @@
 
 /* --- part2 --- */
 
-.part2_Accueil{
+.lamaart2_Accueil{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -49,11 +49,11 @@
     background-color: #8B5E3C;
 }
 
-.part2_textContainer{
+.lamapart2_textContainer{
     margin-left: 50px;
 }
 
-.part2_Paragraphe1{
+.lamapart2_Paragraphe1{
     text-align: center;
     color: white;
     font-size: 30px;
@@ -62,7 +62,7 @@
     width: 600px;
 }
 
-.part2_Paragraphe2{
+.lamapart2_Paragraphe2{
     text-align: center;
     color: #E0D4B4;
     font-size: 30px;
@@ -71,7 +71,7 @@
     width: 400px;
 }
 
-.part2_Paragraphe3{
+.lamapart2_Paragraphe3{
     text-align: center;
     color: white;
     font-size: 30px;
@@ -80,7 +80,7 @@
     width: 750px;
 }
 
-.part2_alpagaImage{
+.lamapart2_alpagaImage{
     width: 650px;
 }
 
