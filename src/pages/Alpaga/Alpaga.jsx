@@ -17,11 +17,13 @@ const Alpaga = () => {
             <div className='part2_Accueil'>
                 <div className='part2_textContainer'>
                     <p className='part2_Paragraphe1'>Les alpagas ont une silhouette élégante et gracile. Ils sont plus petits que les lamas, avec une hauteur au garrot allant de 81 à 99 cm environ. Leur pelage est dense, soyeux et disponible dans une large gamme de couleurs, notamment le blanc, le noir, le brun, le gris et le beige.</p>
-                    <p className='part2_Paragraphe2'>Les alpagas sont des animaux dociles et curieux. Ils sont généralement amicaux et s'adaptent facilement à l'élevage.</p>
+                    <div className='part2_ParagrapheRow'>
+                        <p className='part2_Paragraphe2'>Les alpagas sont des animaux dociles et curieux. Ils sont généralement amicaux et s'adaptent facilement à l'élevage.</p>
+                        <p className='part2_Paragraphe4'>La durée de vie moyenne d'un alpaga est d'environ 15 à 20 ans</p>
+                    </div>
                     <p className='part2_Paragraphe3'>Les alpagas sont considérés comme une espèce domestique, mais certaines populations d'alpagas sauvages existent toujours dans les régions reculées des Andes. Des efforts de conservation sont déployés pour préserver la diversité génétique de ces populations sauvages.</p>
                 </div>
                 <div className='part2_imageTextContainer'>
-                    <p className='part2_Paragraphe4'>La durée de vie moyenne d'un alpaga est d'environ 15 à 20 ans</p>
                     <img className='part2_alpagaImage' src={alpagaBrown} alt="alpagaBrown" />
                     <p className='part2_Paragraphe5'> En général, les alpagas adultes pèsent entre 55 et 84 kg, avec une moyenne d'environ 65 kg pour les femelles et 75 kg pour les mâles.</p>
                 </div>
