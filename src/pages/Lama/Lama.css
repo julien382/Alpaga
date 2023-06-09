@@ -24,7 +24,7 @@
 }
 
 .paragrapheTitleAccueil{
-    font-size: 48px;
+    font-size: 40px;
     animation: slide-inText 2s ease forwards;
 }
 
@@ -41,34 +41,73 @@
 
 /* --- part2 --- */
 
-.lamaart2_Accueil{
+.lamapart2_Accueil{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 50px;
     background-color: #8B5E3C;
 }
 
 .lamapart2_textContainer{
-    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
 }
 
-.lamapart2_Paragraphe1{
+.lamapart2_ParagrapheTitle{
     text-align: center;
     color: white;
     font-size: 30px;
     margin-top: 50px;
-    margin-left: 150px;
-    width: 600px;
+    width: 1000px;
+    display: flex;
 }
 
-.lamapart2_Paragraphe2{
-    text-align: center;
+.lamapart2_ParagraphePartFusion{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lamapart2_ParagraphePart1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.lamapart2_Paragraphe1Part1{
+    text-align: start;
     color: #E0D4B4;
     font-size: 30px;
     margin-top: 100px;
-    margin-left: 300px;
+    width: 450px;
+}
+
+.lamapart2_Paragraphe2Part1{
+    text-align: start;
+    color: white;
+    font-size: 30px;
+    margin-top: 100px;
     width: 400px;
+}
+
+.lamapart2_ParagraphePart2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.lamapart2_Paragraphe1Part2{
+    text-align: end;
+    color: white;
+    font-size: 30px;
+    margin-top: 100px;
+    width: 400px;
+}
+
+.lamapart2_Paragraphe2Part2{
+    text-align: end;
+    color: #E0D4B4;
+    font-size: 30px;
+    margin-top: 100px;
+    width: 450px;
 }
 
 .lamapart2_Paragraphe3{
@@ -76,12 +115,7 @@
     color: white;
     font-size: 30px;
     margin-top: 100px;
-    margin-left: 50px;
-    width: 750px;
-}
-
-.lamapart2_alpagaImage{
-    width: 650px;
+    width: 1000px;
 }
 
 /* --- gameChoice --- */

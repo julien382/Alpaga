@@ -1,6 +1,5 @@
 import './Lama.css'
 import alpagaMain from "../../assets/mainAlpaga.png";
-import alpagaBrown from "../../assets/alpagaBrown.png";
 
 import truemainAlpaga from "../../assets/mainAlpaga.png";
 import truealpaca from "../../assets/alpaca-5564884_1280_preview_rev_1.png";
@@ -61,16 +60,25 @@ const Lama = () => {
                 <img className='alpagaMain' src={alpagaMain} alt="alpagaMain" />
                 <div className='partTexteAccueil'>
                     <h1 className='titleAccueil font color1'>Lama</h1>
-                    <p className='paragrapheTitleAccueil'>Les alpagas sont des animaux domestiques originaires des Andes du Sud-Amérique, ils sont proches cousins des lamas, <span className='font color2'>des guanacos et des vigognes.</span></p>
+                    <p className='paragrapheTitleAccueil'>Les lamas sont des mammifères domestiqués. Ils ont été utilisés depuis longtemps pour leur viande, leur laine et leur force de travail. Ils sont appréciés comme animaux de compagnie en raison de leur nature calme et docile.</p>
                 </div>
             </div>
-            <div className='part2_Accueil'>
-                <div className='part2_textContainer'>
-                    <p className='part2_Paragraphe1'>Les alpagas ont été domestiqués il y a environ 6 000 ans par les peuples indigènes des Andes.</p>
-                    <p className='part2_Paragraphe2'>Les alpagas ont été domestiqués il y a environ 6 000 ans par les peuples indigènes des Andes. </p>
-                    <p className='part2_Paragraphe3'>Il y a beaucoup d'autres aspects intéressants à raconter sur les alpagas, ceci n'est qu'un exemple. Il existe de nombreux aspects intéressants à raconter sur l'histoire, les caractéristiques, les avantages écologiques, les différentes races, la domestication, l'élevage, l'utilisation de leur laine, leur viande, leur lait et bien plus encore.</p>
+            <div className='lamapart2_Accueil'>
+                <div className='lamapart2_textContainer'>
+                    <p className='lamapart2_ParagrapheTitle'>Bien que le lama et l'alpaga soient tous deux des membres de la famille des camélidés et partagent des similitudes, il existe plusieurs différences entre eux, notamment :</p>
+                    <div className='lamapart2_ParagraphePartFusion'>
+                        <div className='lamapart2_ParagraphePart1'>
+                            <p className='lamapart2_Paragraphe1Part1'>Caractère : Les lamas ont tendance à avoir un caractère plus indépendant et peuvent être plus réservés avec les humains.</p>
+                            <p className='lamapart2_Paragraphe2Part1'>Taille : Ils mesurent généralement entre 1,5 et 1,8 mètre de hauteur au garrot et peuvent peser de 130 à 200 kg.</p>
+                        </div>
+                        <div className='lamapart2_ParagraphePart2'>
+                            <p className='lamapart2_Paragraphe1Part2'>Utilisation : Les lamas sont souvent utilisés comme animaux de bât, capables de porter des charges relativement lourdes sur de longues distances. En revanche, les alpagas sont principalement élevés pour leur laine de haute qualité.</p>
+                            <p className='lamapart2_Paragraphe2Part2'>La laine de lama est généralement utilisée pour des produits plus grossiers, tels que des tapis ou des cordes.</p>
+                        </div>
+                    </div>
+                    <p className='lamapart2_Paragraphe3'>Élevage : Les lamas sont souvent élevés en petits troupeaux pour leur rôle de bât et de protection. Les alpagas, quant à eux, sont élevés principalement pour leur laine et sont généralement gardés en plus grands groupes.
+</p>
                 </div>
-                <img className='part2_alpagaImage' src={alpagaBrown} alt="alpagaBrown" />
             </div>
             <div className='gameChoice'>
                 <div className='containerScoreBoard'>
