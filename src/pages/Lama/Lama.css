@@ -43,26 +43,25 @@
 
 .lamapart2_Accueil{
     display: flex;
-    background-color: #8B5E3C;
-}
-
-.lamapart2_textContainer{
-    display: flex;
     flex-direction: column;
-    margin: 50px;
+    align-items: center;
+    background-color: #8B5E3C;
+    padding: 50px;
 }
 
 .lamapart2_ParagrapheTitle{
+    display: flex;
+    align-items: center;
     text-align: center;
     color: white;
     font-size: 30px;
     margin-top: 50px;
     width: 1000px;
-    display: flex;
 }
 
 .lamapart2_ParagraphePartFusion{
     display: flex;
+    width: 90%;
     justify-content: space-between;
 }
 
@@ -77,7 +76,7 @@
     color: #E0D4B4;
     font-size: 30px;
     margin-top: 100px;
-    width: 450px;
+    width: 550px;
 }
 
 .lamapart2_Paragraphe2Part1{
@@ -85,7 +84,7 @@
     color: white;
     font-size: 30px;
     margin-top: 100px;
-    width: 400px;
+    width: 500px;
 }
 
 .lamapart2_ParagraphePart2{
@@ -99,7 +98,7 @@
     color: white;
     font-size: 30px;
     margin-top: 100px;
-    width: 400px;
+    width: 750px;
 }
 
 .lamapart2_Paragraphe2Part2{
@@ -107,14 +106,15 @@
     color: #E0D4B4;
     font-size: 30px;
     margin-top: 100px;
-    width: 450px;
+    width: 550px;
 }
 
 .lamapart2_Paragraphe3{
     text-align: center;
     color: white;
     font-size: 30px;
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     width: 1000px;
 }
 

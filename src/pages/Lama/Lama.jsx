@@ -64,7 +64,6 @@ const Lama = () => {
                 </div>
             </div>
             <div className='lamapart2_Accueil'>
-                <div className='lamapart2_textContainer'>
                     <p className='lamapart2_ParagrapheTitle'>Bien que le lama et l'alpaga soient tous deux des membres de la famille des camélidés et partagent des similitudes, il existe plusieurs différences entre eux, notamment :</p>
                     <div className='lamapart2_ParagraphePartFusion'>
                         <div className='lamapart2_ParagraphePart1'>
@@ -76,9 +75,7 @@ const Lama = () => {
                             <p className='lamapart2_Paragraphe2Part2'>La laine de lama est généralement utilisée pour des produits plus grossiers, tels que des tapis ou des cordes.</p>
                         </div>
                     </div>
-                    <p className='lamapart2_Paragraphe3'>Élevage : Les lamas sont souvent élevés en petits troupeaux pour leur rôle de bât et de protection. Les alpagas, quant à eux, sont élevés principalement pour leur laine et sont généralement gardés en plus grands groupes.
-</p>
-                </div>
+                    <p className='lamapart2_Paragraphe3'>Élevage : Les lamas sont souvent élevés en petits troupeaux pour leur rôle de bât et de protection. Les alpagas, quant à eux, sont élevés principalement pour leur laine et sont généralement gardés en plus grands groupes.</p>
             </div>
             <div className='gameChoice'>
                 <div className='containerScoreBoard'>
