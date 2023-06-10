@@ -4,11 +4,9 @@ import React, { useState } from 'react';
 import ImageTracker from '../../components/ImageTracker/ImageTracker';
 
 import alpagaMain from "../../assets/alpagaAlimentation.png";
+import tonteDebout from "../../assets/tonteDebout.png";
 import notTondu from "../../assets/notTondu.png";
 import tondu from "../../assets/tondu.png";
-import alpaga from "../../assets/alpaca-4366367_1280.jpg";
-import alpaga2 from "../../assets/alpaca-5564884_1280.jpg";
-import alpaga3 from "../../assets/alpaca-gacb7ec03c_1920.jpg";
 import laine from "../../assets/laine.jpg";
 import alpagablanc from "../../assets/2alpagablanc.jpg";
 import tonte from "../../assets/tonte.jpg";
@@ -27,9 +25,9 @@ const Production = () => {
             <div className='part1_Production'>
                 <div className='partTexteProduction'>
                     <h1 className='titleProduction font color1'>Prodution</h1>
-                    <p className='paragrapheTitleProduction'>Les alpagas sont des animaux herbivores qui ont besoin d'une alimentation équilibrée et nutritive pour maintenir leur santé et leur bien-être.</p>
+                    <p className='paragrapheTitleProduction'>Les alpagas sont élevés principalement pour leur laine de grande qualité.</p>
                 </div>
-                <img className='alpagaMainProduction' src={alpagaMain} alt={alpagaMain} />
+                <img className='alpagaMainProduction' src={tonteDebout} alt={alpagaMain} />
             </div>
             <div className='productionImages'>
               <ImageTracker image={alpagablanc} />

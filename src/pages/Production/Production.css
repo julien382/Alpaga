@@ -6,10 +6,10 @@
 }
 
 .alpagaMainProduction{
-  width: 800px;
+  width: 350px;
   transition: transform 0.5s ease;
   margin-top: 50px;
-  margin-right: 50px;
+  margin-right: 150px;
 }
 
 .alpagaMainProduction:hover{

@@ -1,5 +1,5 @@
 import './Lama.css'
-import alpagaMain from "../../assets/mainAlpaga.png";
+import lamaMain from "../../assets/lama.png";
 
 import truemainAlpaga from "../../assets/mainAlpaga.png";
 import truealpaca from "../../assets/alpaca-5564884_1280_preview_rev_1.png";
@@ -57,7 +57,7 @@ const Lama = () => {
     return (
         <div className='accueil'>
             <div className='part1_Accueil'>
-                <img className='alpagaMain' src={alpagaMain} alt="alpagaMain" />
+                <img className='alpagaMain' src={lamaMain} alt="lamaMain" />
                 <div className='partTexteAccueil'>
                     <h1 className='titleAccueil font color1'>Lama</h1>
                     <p className='paragrapheTitleAccueil'>Les lamas sont des mammifères domestiqués. Ils ont été utilisés depuis longtemps pour leur viande, leur laine et leur force de travail. Ils sont appréciés comme animaux de compagnie en raison de leur nature calme et docile.</p>
