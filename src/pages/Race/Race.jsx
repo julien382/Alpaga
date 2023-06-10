@@ -1,7 +1,9 @@
 import './Race.css'
 import alpagaMain from "../../assets/alpagaAlimentation.png";
-import alpagaHuacanyas from "../../assets/alpagaBrown.png";
+import alpagaHuacayas from "../../assets/alpagaBrown.png";
 import alpagaSuris from "../../assets/mainAlpaga.png";
+import huacaya from "../../assets/huacaya.png";
+
 
 const Race = () => {
 
@@ -18,7 +20,7 @@ const Race = () => {
             <div className='part2_race'>
                 <div className='containerHuacanyas'>
                     <p className='part2_race_Paragraphe1'><span className='font color1'>Les Huacayas </span> ont une laine dense, douce et bouclée, qui leur donne un aspect moelleux et rond. Leur laine est très prisée pour les vêtements et les couvertures car elle est chaude et douillette. Les Huacayas sont également connus pour leur conformation compacte et leur apparence robuste, ce qui les rend facilement reconnaissables. Ils ont une taille moyenne, pesant entre 55 et 79 kg pour les mâles et entre 48 et 64 kg pour les femelles.</p>
-                    <img className='alpagaHuacanyas' src={alpagaHuacanyas} alt="alpagaHuacanyas" />
+                    <img className='alpagaHuacayas' src={huacaya} alt="alpagaHuacayas" />
                 </div>
                 <div className='containerSuris'>
                     <img className='alpagaSuris' src={alpagaSuris} alt="alpagaSuris" />
