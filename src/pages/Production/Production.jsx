@@ -9,6 +9,9 @@ import tondu from "../../assets/tondu.png";
 import alpaga from "../../assets/alpaca-4366367_1280.jpg";
 import alpaga2 from "../../assets/alpaca-5564884_1280.jpg";
 import alpaga3 from "../../assets/alpaca-gacb7ec03c_1920.jpg";
+import laine from "../../assets/laine.jpg";
+import alpagablanc from "../../assets/2alpagablanc.jpg";
+import tonte from "../../assets/tonte.jpg";
 
 const Production = () => {
 
@@ -29,9 +32,9 @@ const Production = () => {
                 <img className='alpagaMainProduction' src={alpagaMain} alt={alpagaMain} />
             </div>
             <div className='productionImages'>
-              <ImageTracker image={alpaga} />
-              <ImageTracker image={alpaga2} />
-              <ImageTracker image={alpaga3} />
+              <ImageTracker image={alpagablanc} />
+              <ImageTracker image={laine} />
+              <ImageTracker image={tonte} />
             </div>
             <div className='part2_production'>
                 <p className='part2_production_Paragraphe1'>Les alpagas produisent une laine de haute qualité et recherchée. La laine d'alpaga est appréciée pour sa douceur, sa légèreté et sa chaleur. Elle peut être transformée en fils, en tissus et en produits finis tels que des vêtements, des accessoires et des articles de décoration.</p>

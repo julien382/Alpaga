@@ -1,6 +1,8 @@
 import './Alpaga.css'
 import alpagaMain from "../../assets/mainAlpaga.png";
 import alpagaBrown from "../../assets/alpagaBrown.png";
+import cria from "../../assets/cria.jpg";
+import crias from "../../assets/crias.jpg";
 
 const Alpaga = () => {
 
@@ -29,9 +31,9 @@ const Alpaga = () => {
                 </div>
             </div>
             <div className='part3_Accueil'>
-                <img className='part2_alpagaImage' src={alpagaBrown} alt="alpagaBrown" />
+                <img className='part2_alpagaImage' src={crias} alt="alpagaBrown" />
                 <p className='part3_Paragraphe1'>Un bébé alpaga est appelé un "cria". Ils allaitent leur mère pendant plusieurs mois, dépendant entièrement du lait maternel pour leur nutrition. Ils commencent généralement à consommer progressivement de la végétation solide, comme l'herbe et le foin, autour de 2 à 3 semaines</p>
-                <img className='part2_alpagaImage' src={alpagaBrown} alt="alpagaBrown" />
+                <img className='part2_alpagaImage' src={cria} alt="alpagaBrown" />
             </div>
             
         </div>
