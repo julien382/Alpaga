@@ -5,17 +5,17 @@
 }
 
 .alpagaMainContainer{
-    width: 550px;
-    height: auto;
+    width: 500px;
+    height: 610px;
     max-width: 100%;
     margin-left: 100px;
 }
 
 .alpagaMain{
     width: 100%;
-    height: auto;
+    height: 100%;
     max-width: 100%;
-    max-height: 100%;
+    object-fit: contain; /* Pour maintenir les proportions de l'image */
     transition: transform 0.5s ease;
 }
 

@@ -8,6 +8,7 @@ import falsemainAlpaga from "../../assets/alpagaAlimentation.png";
 import falsealpaca from "../../assets/logoAlpaga.png";
 import falsealpaga404 from "../../assets/alpagaBrown_cut.png";
 import { useEffect, useState } from 'react';
+import Accueil from '../../components/Accueil/Accueil';
 
 const allImagesTrue = [
   { src: truemainAlpaga, isCorrect: true},
@@ -56,13 +57,8 @@ const Lama = () => {
 
     return (
         <div className='accueil'>
-            <div className='part1_Accueil'>
-                <img className='lamaMain' src={lamaMain} alt="lamaMain" />
-                <div className='partTexteAccueil'>
-                    <h1 className='titleAccueil font color1'>Lama</h1>
-                    <p className='paragrapheTitleAccueil'>Les lamas sont des mammifères domestiqués. Ils ont été utilisés depuis longtemps pour leur viande, leur laine et leur force de travail. Ils sont appréciés comme animaux de compagnie en raison de leur nature calme et docile.</p>
-                </div>
-            </div>
+            <Accueil image={lamaMain} title="Lama" texte="Les lamas sont des mammifères domestiqués. Ils ont été utilisés depuis longtemps pour leur viande, leur laine et leur force de travail. Ils sont appréciés comme animaux de compagnie en raison de leur nature calme et docile."> 
+            </Accueil>
             <div className='lamapart2_Accueil'>
                     <p className='lamapart2_ParagrapheTitle'>Bien que le lama et l'alpaga soient tous deux des membres de la famille des camélidés et partagent des similitudes, il existe plusieurs différences entre eux, notamment :</p>
                     <div className='lamapart2_ParagraphePartFusion'>
