@@ -13,6 +13,7 @@ import Lama from "../pages/Lama/Lama";
 import Alimentation from "../pages/Alimentation/Alimentation";
 import Race from "../pages/Race/Race";
 import Production from "../pages/Production/Production";
+import Galerie from "./Galerie/Galerie";
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
         <Route path="/alimentation" element={<Alimentation />} />
         <Route path="/race" element={<Race />} />
         <Route path="/production" element={<Production />} />
+        <Route path="/galerie" element={<Galerie />} />
         <Route path="/*" element={<Error />} />
         <Route path="/lama" element={<Lama />} />
       </Routes>
