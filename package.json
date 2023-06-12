@@ -1,6 +1,7 @@
 {
   "name": "alpaga",
   "version": "0.1.0",
+  "homepage": "https://julien382.github.io/Alpaga",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
