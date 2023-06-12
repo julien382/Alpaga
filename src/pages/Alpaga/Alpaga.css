@@ -78,14 +78,12 @@
 
 .part3_Accueil{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin-top: 100px;
     margin-bottom: 100px;
-}
-
-.part3_alpagaImage1{
-    width: 500px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .part3_Paragraphe1{
@@ -96,6 +94,7 @@
     margin: 25px;
 }
 
-.part3_alpagaImage2{
+.part3_alpagaImage{
     width: 500px;
+    border-radius: 25px;
 }
