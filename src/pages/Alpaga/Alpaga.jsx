@@ -1,6 +1,6 @@
 import './Alpaga.css'
-import alpagaMain from "../../assets/mainAlpaga.png";
-import alpagaBrown from "../../assets/alpagaBrown.png";
+import alpagaMain from "../../assets/mainAlpaga_cut.png";
+import alpagaBrown from "../../assets/alpagaBrown_cut.png";
 import cria from "../../assets/cria.jpg";
 import crias from "../../assets/crias.jpg";
 

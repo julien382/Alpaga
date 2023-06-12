@@ -6,7 +6,7 @@ import truealpaca from "../../assets/alpaca-5564884_1280_preview_rev_1.png";
 import truealpaga404 from "../../assets/alpaga404.png";
 import falsemainAlpaga from "../../assets/alpagaAlimentation.png";
 import falsealpaca from "../../assets/logoAlpaga.png";
-import falsealpaga404 from "../../assets/alpagaBrown.png";
+import falsealpaga404 from "../../assets/alpagaBrown_cut.png";
 import { useEffect, useState } from 'react';
 
 const allImagesTrue = [
