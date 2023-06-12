@@ -8,8 +8,8 @@
 .alpagaMainRace{
     width: 800px;
     transition: transform 0.5s ease;
-    margin-top: 50px;
-    margin-right: 50px;
+    margin-top: 150px;
+    margin-right: 100px;
 }
 
 .alpagaMainRace:hover{

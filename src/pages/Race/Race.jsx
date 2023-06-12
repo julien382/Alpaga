@@ -1,7 +1,6 @@
 import './Race.css'
-import alpagaMain from "../../assets/alpagaAlimentation.png";
-import alpagaHuacayas from "../../assets/alpagaBrown.png";
-import alpagaSuris from "../../assets/mainAlpaga.png";
+import alpagaMain from "../../assets/alpagaMountain_cut.png";
+import alpagaSuri from "../../assets/suri_reverse_cut.png";
 import huacaya from "../../assets/huacaya.png";
 
 
@@ -23,7 +22,7 @@ const Race = () => {
                     <img className='alpagaHuacayas' src={huacaya} alt="alpagaHuacayas" />
                 </div>
                 <div className='containerSuris'>
-                    <img className='alpagaSuris' src={alpagaSuris} alt="alpagaSuris" />
+                    <img className='alpagaSuris' src={alpagaSuri} alt="alpagaSuris" />
                     <p className='part2_race_Paragraphe2'><span className='font color1'>Les Suris </span> ont une laine soyeuse, droite et brillante, qui leur donne une apparence élégante et noble. Leurs poils sont plus longs que ceux des Huacayas et leur laine est souvent utilisée pour la production de vêtements haut de gamme. Les Suris ont une conformation élégante et élancée, avec un cou long et mince. Ils sont plus grands que les Huacayas, pesant entre 68 et 84 kg pour les mâles et entre 50 et 64 kg pour les femelles.</p>
                 </div>
             </div>
