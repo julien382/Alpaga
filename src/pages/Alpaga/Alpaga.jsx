@@ -10,7 +10,9 @@ const Alpaga = () => {
     return (
         <div className='accueil'>
             <div className='part1_Accueil'>
-                <img className='alpagaMain' src={alpagaMain} alt="alpagaMain" />
+                <div className='alpagaMainContainer'>  
+                    <img className='alpagaMain' src={alpagaMain} alt="alpagaMain" />
+                </div>
                 <div className='partTexteAccueil'>
                     <h1 className='titleAccueil font color1'>Alpaga</h1>
                     <p className='paragrapheTitleAccueil'> Les alpagas sont des animaux domestiques originaires d'Amérique du Sud, ils sont proches cousins des lamas, <span className='font color2'>des guanacos et des vigognes.</span></p>

@@ -1,14 +1,14 @@
-.part1_Accueil{
+/*.part1_Accueil{
     display: flex;
     margin-top: 50px;
 }
 
-.alpagaMain{
+.lamaMain{
     width: 700px;
     transition: transform 0.5s ease;
 }
 
-.alpagaMain:hover{
+.lamaMain:hover{
     transform: scale(1.2);
 }
 
@@ -37,7 +37,7 @@
       transform: translateX(0%);
       opacity: 1;
     }
-}
+}*/
 
 /* --- part2 --- */
 

@@ -1,10 +1,21 @@
 .part1_Accueil{
     display: flex;
     margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.alpagaMainContainer{
+    width: 550px;
+    height: auto;
+    max-width: 100%;
+    margin-left: 100px;
 }
 
 .alpagaMain{
-    width: 700px;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
     transition: transform 0.5s ease;
 }
 
@@ -14,8 +25,8 @@
 
 .partTexteAccueil{
     margin-top: 100px;
-    margin-left: 50px;
-    width: 800px;
+    margin-left: 100px;
+    max-width: 800px;
 }
 
 .titleAccueil{
@@ -39,6 +50,52 @@
     }
 }
 
+@media only screen and (max-width: 767px) {
+    .part1_Accueil{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        padding-left: 15px;
+        padding-right: 15px;
+
+    }
+    
+    .alpagaMainContainer{
+        width: 250px;
+        height: auto;
+        max-width: 100%;
+        margin-left: 0px;
+    }
+    
+    .alpagaMain{
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+        transition: transform 0.5s ease;
+    }
+    
+    .alpagaMain:hover{
+        transform: scale(1.2);
+    }
+    
+    .partTexteAccueil{
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+    
+    .titleAccueil{
+        font-size: 64px;
+        margin-bottom: 35px;
+    }
+    
+    .paragrapheTitleAccueil{
+        font-size: 25px;
+        animation: slide-inText 2s ease forwards;
+    }
+}
 /* --- part2 --- */
 
 .part2_Accueil{
