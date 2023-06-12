@@ -1,7 +1,7 @@
 import './Lama.css'
 import lamaMain from "../../assets/lama.png";
 
-import truemainAlpaga from "../../assets/mainAlpaga.png";
+import truemainAlpaga from "../../assets/mainAlpaga_cut.png";
 import truealpaca from "../../assets/alpaca-5564884_1280_preview_rev_1.png";
 import truealpaga404 from "../../assets/alpaga404.png";
 import falsemainAlpaga from "../../assets/alpagaAlimentation.png";

@@ -3,21 +3,19 @@ import alpagaMain from "../../assets/mainAlpaga_cut.png";
 import alpagaBrown from "../../assets/alpagaBrown_cut.png";
 import cria from "../../assets/cria.jpg";
 import crias from "../../assets/crias.jpg";
+import Accueil from '../../components/Accueil/Accueil';
 
 const Alpaga = () => {
 
 
     return (
         <div className='accueil'>
-            <div className='part1_Accueil'>
-                <div className='alpagaMainContainer'>  
-                    <img className='alpagaMain' src={alpagaMain} alt="alpagaMain" />
-                </div>
-                <div className='partTexteAccueil'>
-                    <h1 className='titleAccueil font color1'>Alpaga</h1>
-                    <p className='paragrapheTitleAccueil'> Les alpagas sont des animaux domestiques originaires d'Amérique du Sud, ils sont proches cousins des lamas, <span className='font color2'>des guanacos et des vigognes.</span></p>
-                </div>
-            </div>
+
+            <Accueil image={alpagaMain} title="Alpaga" texte={
+                <span>Les alpagas sont des animaux domestiques originaires d'Amérique du Sud, ils sont proches cousins des lamas,<span className="font color2"> des guanacos et des vigognes.</span>
+                </span>}> 
+            </Accueil>
+            
             <div className='part2_Accueil'>
                 <div className='part2_textContainer'>
                     <p className='part2_Paragraphe1'>Les alpagas ont une silhouette élégante et gracile. Ils sont plus petits que les lamas, avec une hauteur au garrot allant de 81 à 99 cm environ. Leur pelage est dense, soyeux et disponible dans une large gamme de couleurs, notamment le blanc, le noir, le brun, le gris et le beige.</p>
