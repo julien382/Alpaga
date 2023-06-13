@@ -5,9 +5,9 @@
 
 .footer > a{
     color: #8B5E3C;
-    font-size: 20px;
+    font-size: 10px;
     font-weight: bold;
-    margin: 25px;
-    width: 200px;
+    margin: 15px;
+    max-width: 200px;
     text-align: center;
 }
