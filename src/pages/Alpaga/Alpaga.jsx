@@ -26,7 +26,9 @@ const Alpaga = () => {
                     <p className='part2_Paragraphe3'>Les alpagas sont considérés comme une espèce domestique, mais certaines populations d'alpagas sauvages existent toujours dans les régions reculées des Andes. Des efforts de conservation sont déployés pour préserver la diversité génétique de ces populations sauvages.</p>
                 </div>
                 <div className='part2_imageTextContainer'>
-                    <img className='part2_alpagaImage' src={alpagaBrown} alt="alpagaBrown" />
+                    <div className='part2_alpagaImageContainer'>
+                        <img className='part2_alpagaImage' src={alpagaBrown} alt="alpagaBrown" />
+                    </div>
                     <p className='part2_Paragraphe5'> En général, les alpagas adultes pèsent entre 55 et 84 kg, avec une moyenne d'environ 65 kg pour les femelles et 75 kg pour les mâles.</p>
                 </div>
             </div>
