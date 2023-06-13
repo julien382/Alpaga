@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    position: relative;
 }
 
 .error404{
@@ -33,7 +34,7 @@
     position: absolute;
     left: 0;
     bottom: 0;
-    width: 320px;
+    max-width: 320px;
     transform-origin: bottom left;
     transition: transform 0.5s ease;
 }
@@ -46,15 +47,9 @@
 {
     /* --- Error 404 --- */
 
-    .sectionError{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
     .error404{
         font-size: 96px;
-        margin-top: 195px;
+        margin-top: 0px;
     }
     
     .messageError{
@@ -64,9 +59,17 @@
     
     .errorBackHome{
         font-size: 14px;
-        margin-top: 133px;
-        margin-bottom: 169px;
+        margin-top: 53px;
+        margin-bottom: 200px;
     }
 
+    .alpaga404{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        max-width: 100px;
+        transform-origin: bottom left;
+        transition: transform 0.5s ease;
+    }
 
 }
