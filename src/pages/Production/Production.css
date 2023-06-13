@@ -46,7 +46,7 @@
   text-align: center;
   color: white;
   font-size: 30px;
-  width: 700px;
+  max-width: 700px;
   margin: 50px;
   margin-right: 150px;
 }
@@ -55,7 +55,7 @@
   text-align: center;
   color: white;
   font-size: 30px;
-  width: 300px;
+  max-width: 300px;
   margin: 50px;
 }
 
@@ -78,7 +78,6 @@
 }
 
 .titleTonduFondu{
-
   margin-top: 50px;
   margin-left: 50px;
   font-size: 80px;
@@ -111,4 +110,43 @@
   margin: 100px;
   margin-left: 100px;
   margin-right: 100px;
+}
+
+@media only screen and (max-width: 767px) {
+  .part2_production{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #8B5E3C;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .part2_production_Paragraphe1{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    max-width: 700px;
+    margin: 0px;
+    margin-right: 0px;
+  }
+  
+  .part2_production_Paragraphe2{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    max-width: 300px;
+    margin: 0px;
+    margin-top: 50px;
+  }
+
+  .titleTonduFondu{
+    margin-top: 50px;
+    margin-left: 15px;
+    font-size: 42px;
+    margin-bottom: 50px;
+  }
 }

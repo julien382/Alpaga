@@ -15,6 +15,7 @@ const Production = () => {
 
   const [imageSrc, setImageSrc] = useState(notTondu);
 
+  
   const handleClick = () => {
     setImageSrc(imageSrc === notTondu ? tondu : notTondu);
   };
@@ -22,7 +23,7 @@ const Production = () => {
 
   return (
     <div className='production'>
-      <AccueilType image={tonteDebout} title="Prodution" texte="Les alpagas sont élevés principalement pour leur laine de grande qualité."> 
+      <AccueilType image={tonteDebout} title="Production" texte="Les alpagas sont élevés principalement pour leur laine de grande qualité."> 
       </AccueilType>
       <div className='productionImages'>
         <ImageTracker image={alpagablanc} />
