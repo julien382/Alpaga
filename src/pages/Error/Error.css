@@ -58,15 +58,15 @@
     
     .errorBackHome{
         font-size: 14px;
-        margin-top: 53px;
-        margin-bottom: 200px;
+        margin-top: 100px;
+        margin-bottom: 300px;
     }
 
     .alpaga404{
         position: absolute;
         left: 0;
         bottom: 0;
-        max-width: 100px;
+        max-width: 150px;
         transform-origin: bottom left;
         transition: transform 0.5s ease;
     }

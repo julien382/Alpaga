@@ -63,10 +63,12 @@
     }
     
     .alpagaMainContainerAccueilType{
-        width: 250px;
+        width: 450px;
         height: auto;
         max-width: 100%;
         margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 50px;
     }
     
     .alpagaMainAccueilType{
