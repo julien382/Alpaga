@@ -1,38 +1,3 @@
-.part1_race{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
-    margin-bottom: 250px;
-}
-
-.alpagaMainRace{
-    width: 800px;
-    transition: transform 0.5s ease;
-    margin-top: 150px;
-    margin-right: 100px;
-}
-
-.alpagaMainRace:hover{
-    transform: scale(1.1);
-}
-
-.partTexteRace{
-    margin-top: 100px;
-    margin-left: 50px;
-    width: 600px;
-}
-
-.titleRace{
-    font-size: 80px;
-    margin-bottom: 35px;
-}
-
-.paragrapheTitleRace{
-    font-size: 40px;
-    animation: slide-inText 2s ease forwards;
-}
-
-/* --- part2 --- */
 .part2_race{
     background-color: #8B5E3C;
     padding: 50px;
@@ -83,4 +48,9 @@
       transform: translateX(0%);
       opacity: 1;
     }
+}
+
+@media only screen and (max-width: 767px) {
+
+
 }

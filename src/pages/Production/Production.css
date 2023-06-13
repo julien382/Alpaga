@@ -1,38 +1,3 @@
-.part1_Production{
-  display: flex;
-  justify-content: space-between;
-  margin-top: 50px;
-  margin-bottom: 250px;
-}
-
-.alpagaMainProduction{
-  width: 350px;
-  transition: transform 0.5s ease;
-  margin-top: 50px;
-  margin-right: 150px;
-}
-
-.alpagaMainProduction:hover{
-  transform: scale(1.1);
-}
-
-.partTexteProduction{
-  margin-top: 100px;
-  margin-left: 50px;
-  width: 800px;
-}
-
-.titleProduction{
-  font-size: 80px;
-  margin-bottom: 35px;
-}
-
-.paragrapheTitleProduction{
-  font-size: 40px;
-  animation: slide-inText 2s ease forwards;
-}
-
-/* --- part2 --- */
 .part2_production{
   display: flex;
   justify-content: center;
