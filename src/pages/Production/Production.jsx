@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 
 import ImageTracker from '../../components/ImageTracker/ImageTracker';
 
-import alpagaMain from "../../assets/alpagaAlimentation.png";
 import tonteDebout from "../../assets/tonteDebout.png";
 import notTondu from "../../assets/notTondu.png";
 import tondu from "../../assets/tondu.png";
