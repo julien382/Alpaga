@@ -95,6 +95,7 @@ const Header = () => {
               <img className='logoAlpaga' src={logoAlpaga} alt="logoAlpaga" />
               <p className='logotexte font color2'>Alpaga</p>
             </Link>
+
             <div className={`mobileMenu ${showMobileMenu ? "active" : ""}`}>
               <nav>
                 <Link className='linkHeader' to="/alimentation">Alimentation</Link>
@@ -113,6 +114,7 @@ const Header = () => {
                 <Link className='linkLama' to="lama">Lama</Link>
               </nav>
             </div>
+            <div className={`overlay ${showMobileMenu ? "active" : ""}`}></div>
           </div>
         </header>
       );
