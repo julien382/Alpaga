@@ -1,46 +1,3 @@
-/*.part1_Accueil{
-    display: flex;
-    margin-top: 50px;
-}
-
-.lamaMain{
-    width: 700px;
-    transition: transform 0.5s ease;
-}
-
-.lamaMain:hover{
-    transform: scale(1.2);
-}
-
-.partTexteAccueil{
-    margin-top: 100px;
-    margin-left: 50px;
-    width: 800px;
-}
-
-.titleAccueil{
-    font-size: 128px;
-    margin-bottom: 35px;
-}
-
-.paragrapheTitleAccueil{
-    font-size: 40px;
-    animation: slide-inText 2s ease forwards;
-}
-
-@keyframes slide-inText {
-    0% {
-      transform: translateX(0%);
-      opacity: 0;
-    }
-    100% {
-      transform: translateX(0%);
-      opacity: 1;
-    }
-}*/
-
-/* --- part2 --- */
-
 .lamapart2_Accueil{
     display: flex;
     flex-direction: column;
@@ -56,7 +13,7 @@
     color: white;
     font-size: 30px;
     margin-top: 50px;
-    width: 1000px;
+    max-width: 1000px;
 }
 
 .lamapart2_ParagraphePartFusion{
@@ -76,7 +33,7 @@
     color: #E0D4B4;
     font-size: 30px;
     margin-top: 100px;
-    width: 550px;
+    max-width: 550px;
 }
 
 .lamapart2_Paragraphe2Part1{
@@ -84,7 +41,7 @@
     color: white;
     font-size: 30px;
     margin-top: 100px;
-    width: 500px;
+    max-width: 500px;
 }
 
 .lamapart2_ParagraphePart2{
@@ -98,7 +55,7 @@
     color: white;
     font-size: 30px;
     margin-top: 100px;
-    width: 750px;
+    max-width: 750px;
 }
 
 .lamapart2_Paragraphe2Part2{
@@ -106,7 +63,7 @@
     color: #E0D4B4;
     font-size: 30px;
     margin-top: 100px;
-    width: 550px;
+    max-width: 550px;
 }
 
 .lamapart2_Paragraphe3{
@@ -115,7 +72,7 @@
     font-size: 30px;
     margin-top: 50px;
     margin-bottom: 50px;
-    width: 1000px;
+    max-width: 1000px;
 }
 
 /* --- gameChoice --- */
@@ -173,4 +130,84 @@
 .pictureGame:hover {
     border-color: #f00;
     transform: scale(1.1);
+}
+
+@media only screen and (max-width: 767px) {
+    .lamapart2_Accueil{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #8B5E3C;
+        padding: 15px;
+    }
+    
+    .lamapart2_ParagrapheTitle{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        margin-top: 50px;
+        max-width: 1000px;
+    }
+    
+    .lamapart2_ParagraphePartFusion{
+        display: flex;
+        width: 90%;
+        justify-content: space-between;
+    }
+    
+    .lamapart2_ParagraphePart1{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-right: 15px;
+    }
+    
+    .lamapart2_Paragraphe1Part1{
+        text-align: start;
+        color: #E0D4B4;
+        font-size: 20px;
+        margin-top: 100px;
+        max-width: 550px;
+    }
+    
+    .lamapart2_Paragraphe2Part1{
+        text-align: start;
+        color: white;
+        font-size: 20px;
+        margin-top: 100px;
+        max-width: 500px;
+    }
+    
+    .lamapart2_ParagraphePart2{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    
+    .lamapart2_Paragraphe1Part2{
+        text-align: end;
+        color: white;
+        font-size: 20px;
+        margin-top: 100px;
+        max-width: 750px;
+    }
+    
+    .lamapart2_Paragraphe2Part2{
+        text-align: end;
+        color: #E0D4B4;
+        font-size: 20px;
+        margin-top: 100px;
+        max-width: 550px;
+    }
+    
+    .lamapart2_Paragraphe3{
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        max-width: 1000px;
+    }
 }
