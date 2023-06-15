@@ -128,7 +128,6 @@
 }
   
 .pictureGame:hover {
-    border-color: #f00;
     transform: scale(1.1);
 }
 
@@ -266,7 +265,6 @@
     }
     
     .pictureGame:hover {
-        border-color: #f00;
-        transform: scale(1.1);
+        transform: none;
     }
 }
