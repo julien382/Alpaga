@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Alpaga/static/css/main.cad70296.css",
+    "main.css": "/Alpaga/static/css/main.616388de.css",
     "main.js": "/Alpaga/static/js/main.8a20b623.js",
     "static/js/787.8dbc9f68.chunk.js": "/Alpaga/static/js/787.8dbc9f68.chunk.js",
     "static/media/alpagaBrown_cut.png": "/Alpaga/static/media/alpagaBrown_cut.26cc10296f6dbebca701.png",
@@ -24,12 +24,12 @@
     "static/media/cursorAlpaga.cur": "/Alpaga/static/media/cursorAlpaga.84e973537a0fb14e41f1.cur",
     "static/media/cursorTondeuse.cur": "/Alpaga/static/media/cursorTondeuse.de88220fe7d26dbc92aa.cur",
     "index.html": "/Alpaga/index.html",
-    "main.cad70296.css.map": "/Alpaga/static/css/main.cad70296.css.map",
+    "main.616388de.css.map": "/Alpaga/static/css/main.616388de.css.map",
     "main.8a20b623.js.map": "/Alpaga/static/js/main.8a20b623.js.map",
     "787.8dbc9f68.chunk.js.map": "/Alpaga/static/js/787.8dbc9f68.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cad70296.css",
+    "static/css/main.616388de.css",
     "static/js/main.8a20b623.js"
   ]
 }
