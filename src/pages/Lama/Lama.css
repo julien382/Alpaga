@@ -226,7 +226,7 @@
         align-items: flex-end;
         justify-content: space-between;
         text-align: center;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
     }
 
     .scoreBoardWin{
@@ -237,7 +237,7 @@
 
     .titleGame{
         color: #8B5E3C;
-        font-size: 54px;
+        font-size: 48px;
         font-weight: bold;
         margin-left: 10px;
         margin-right: 10px;
@@ -262,7 +262,7 @@
         background-color: #E0D4B4;
         border-radius: 25px;
         transition: all 0.2s ease-in-out;
-        margin: 15px;
+        margin: 5px;
     }
     
     .pictureGame:hover {
