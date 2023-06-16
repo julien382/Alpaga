@@ -1,8 +1,8 @@
 .part1_AccueilType{
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
-    margin-bottom: 100px;
+    margin-top: 200px;
+    margin-bottom: 300px;
 }
 
 .alpagaMainContainerAccueilType{
@@ -60,6 +60,7 @@
         justify-content: center;
         align-items: center;
         margin-top: 50px;
+        margin-bottom: 100px;
         padding-left: 15px;
         padding-right: 15px;
     }
