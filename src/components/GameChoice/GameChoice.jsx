@@ -16,6 +16,16 @@ import truenotTondu from "../../assets/notTondu.png";
 import truesuri_reverse_cut from "../../assets/suri_reverse_cut.png";
 import truetonte from "../../assets/tonte.jpg";
 import truetonteDebout from "../../assets/tonteDebout.png";
+import truepetitmarron from "../../assets/alpaca-gb3f7779e3_1920.jpg";
+import truearne from "../../assets/arne-verbist-JfR2z3v7w0M-unsplash.jpg";
+import truedamian from "../../assets/damian-barczak-XIDi_OUMU-I-unsplash.jpg";
+import trueistockphoto from "../../assets/istockphoto-160558081-612x612.jpg";
+import trueistockphoto2 from "../../assets/istockphoto-640829652-612x612.jpg";
+import truejosiah from "../../assets/josiah-farrow-mYxtYpSJvbw-unsplash.jpg";
+import truenadira from "../../assets/nadira-dean-nklvlXm5RU0-unsplash.jpg";
+import truepexels from "../../assets/pexels-ali-atakan-açıkbaş-10595504.jpg";
+import truepexels2 from "../../assets/pexels-ali-atakan-açıkbaş-10595518.jpg";
+import truepexels3 from "../../assets/pexels-ali-atakan-açıkbaş-10595518.jpg";
 
 import falsemainAlpaga from "../../assets/lama/lama.png";
 
@@ -35,6 +45,17 @@ const allImagesTrue = [
     { src: truesuri_reverse_cut, isCorrect: true},
     { src: truetonte, isCorrect: true},
     { src: truetonteDebout, isCorrect: true},
+    { src: truealpaga404, isCorrect: true},
+    { src: truepetitmarron, isCorrect: true},
+    { src: truearne, isCorrect: true},
+    { src: truedamian, isCorrect: true},
+    { src: trueistockphoto, isCorrect: true},
+    { src: trueistockphoto2, isCorrect: true},
+    { src: truejosiah, isCorrect: true},
+    { src: truenadira, isCorrect: true},
+    { src: truepexels, isCorrect: true},
+    { src: truepexels2, isCorrect: true},
+    { src: truepexels3, isCorrect: true}
   ];
   
   const allImagesFalse = [
