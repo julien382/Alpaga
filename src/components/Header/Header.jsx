@@ -63,6 +63,9 @@ const Header = () => {
     const [showHeader, setShowHeader] = useState(true); // controle l'état d'affichage du header en fonction du scroll
     const [showMobileMenu, setShowMobileMenu] = useState(false); // controle l'état d'affichage du burger menu mobile/pc
 
+    const handleLinkClick = () => {
+      setShowMobileMenu(false);
+    };
 
     useEffect(() => {
         function handleScroll() {
@@ -98,20 +101,20 @@ const Header = () => {
 
             <div className={`mobileMenu ${showMobileMenu ? "active" : ""}`}>
               <nav>
-                <Link className='linkHeader' to="/alimentation">Alimentation</Link>
-                <Link className='linkHeader' to="/race">Race</Link>
-                <Link className='linkHeader' to="/production">Production</Link>
-                <Link className='linkHeader' to="/galerie">Galerie</Link>
-                <Link className='linkLama' to="lama">Lama</Link>
-              </nav>
+                <Link className='linkHeader' to="/alimentation" onClick={handleLinkClick}>Alimentation</Link>
+                <Link className='linkHeader' to="/race" onClick={handleLinkClick}>Race</Link>
+                <Link className='linkHeader' to="/production" onClick={handleLinkClick}>Production</Link>
+                <Link className='linkHeader' to="/galerie" onClick={handleLinkClick}>Galerie</Link>
+                <Link className='linkLama' to="lama" onClick={handleLinkClick}>Lama</Link>
+                </nav>
             </div>
             <div className='containerNav'>
               <nav>
-                <Link className='linkHeader' to="/alimentation">Alimentation</Link>
-                <Link className='linkHeader' to="/race">Race</Link>
-                <Link className='linkHeader' to="/production">Production</Link>
-                <Link className='linkHeader' to="/galerie">Galerie</Link>
-                <Link className='linkLama' to="lama">Lama</Link>
+                <Link className='linkHeader' to="/alimentation" onClick={handleLinkClick}>Alimentation</Link>
+                <Link className='linkHeader' to="/race" onClick={handleLinkClick}>Race</Link>
+                <Link className='linkHeader' to="/production" onClick={handleLinkClick}>Production</Link>
+                <Link className='linkHeader' to="/galerie" onClick={handleLinkClick}>Galerie</Link>
+                <Link className='linkLama' to="lama" onClick={handleLinkClick}>Lama</Link>
               </nav>
             </div>
             <div className={`overlay ${showMobileMenu ? "active" : ""}`}></div>
