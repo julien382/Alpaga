@@ -1,23 +1,44 @@
 import './GameChoice.css'
-
-import truemainAlpaga from "../../assets/mainAlpaga_cut.png";
-import truealpaca from "../../assets/alpaca-5564884_1280_preview_rev_1.png";
-import truealpaga404 from "../../assets/alpaga404.png";
-import falsemainAlpaga from "../../assets/alpagaAlimentation.png";
-import falsealpaca from "../../assets/logoAlpaga.png";
-import falsealpaga404 from "../../assets/alpagaBrown_cut.png";
 import { useEffect, useState } from 'react';
+
+import truemainAlpaga from "../../assets/2alpagablanc.jpg";
+import truealpacamange from "../../assets/alpaca-4366367_1280.jpg";
+import truealpacamain from "../../assets/alpaca-5564884_1280_preview_rev_1.png";
+import truealpacapetit from "../../assets/alpaca-gacb7ec03c_1920.jpg";
+import truealpaga404 from "../../assets/alpaga404.png";
+import truealpagaMarron from "../../assets/alpagaMarron.png";
+import truealpagaMountain_cut from "../../assets/alpagaMountain_cut.png";
+import truecria from "../../assets/cria.jpg";
+import truecrias from "../../assets/crias.jpg";
+import truehuacaya from "../../assets/huacaya.png";
+import truemainAlpaga_cut from "../../assets/mainAlpaga_cut.png";
+import truenotTondu from "../../assets/notTondu.png";
+import truesuri_reverse_cut from "../../assets/suri_reverse_cut.png";
+import truetonte from "../../assets/tonte.jpg";
+import truetonteDebout from "../../assets/tonteDebout.png";
+
+import falsemainAlpaga from "../../assets/lama/lama.png";
 
 const allImagesTrue = [
     { src: truemainAlpaga, isCorrect: true},
-    { src: truealpaca, isCorrect: true},
+    { src: truealpacamange, isCorrect: true},
+    { src: truealpacamain, isCorrect: true},
+    { src: truealpacapetit, isCorrect: true},
     { src: truealpaga404, isCorrect: true},
+    { src: truealpagaMarron, isCorrect: true},
+    { src: truealpagaMountain_cut, isCorrect: true},
+    { src: truecria, isCorrect: true},
+    { src: truecrias, isCorrect: true},
+    { src: truehuacaya, isCorrect: true},
+    { src: truemainAlpaga_cut, isCorrect: true},
+    { src: truenotTondu, isCorrect: true},
+    { src: truesuri_reverse_cut, isCorrect: true},
+    { src: truetonte, isCorrect: true},
+    { src: truetonteDebout, isCorrect: true},
   ];
   
   const allImagesFalse = [
-    { src: falsemainAlpaga, isCorrect: false},
-    { src: falsealpaca, isCorrect: false},
-    { src: falsealpaga404, isCorrect: false},
+    { src: falsemainAlpaga, isCorrect: false}
   ];
 
 const GameChoice = () => {
@@ -70,9 +91,6 @@ const GameChoice = () => {
                         alt={image.src}
                         onClick={() => handleImageClick(image)}
                     />
-                    ))}
-                    {currentImages.map((image) => (
-                    <p>{image.isCorrect.toString()}</p>
                     ))}
                 </div>
             </div>

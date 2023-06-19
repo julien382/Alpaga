@@ -1,5 +1,5 @@
 import './Lama.css'
-import lamaMain from "../../assets/lama.png";
+import lamaMain from "../../assets/lama/lama.png";
 
 import Accueil from '../../components/Accueil/Accueil';
 import GameChoice from '../../components/GameChoice/GameChoice';
