@@ -11,7 +11,7 @@
     text-align: right;
     color: white;
     font-size: 30px;
-    width: 500px;
+    max-width: 500px;
     margin: 25px;
 }
 
@@ -19,7 +19,7 @@
     text-align: center;
     color: #E0D4B4;
     font-size: 30px;
-    width: 350px;
+    max-width: 350px;
     margin: 25px;
 }
 
@@ -27,7 +27,7 @@
     text-align: left;
     color: white;
     font-size: 30px;
-    width: 500px;
+    max-width: 500px;
     margin: 25px;
 }
 
