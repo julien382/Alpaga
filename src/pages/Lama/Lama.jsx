@@ -1,4 +1,4 @@
-import './Lama.css'
+import './Lama.scss'
 import lamaMain from "../../assets/lama/lama.png";
 
 import Accueil from '../../components/Accueil/Accueil';

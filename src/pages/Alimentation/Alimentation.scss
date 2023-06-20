@@ -1,8 +1,10 @@
+@import '../../styles/index.scss';
+
 .part2_alimentation{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #8B5E3C;
+    background-color: $secondary-color;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -17,7 +19,7 @@
 
 .part2_alimentation_Paragraphe2{
     text-align: center;
-    color: #E0D4B4;
+    color: $primary-color;
     font-size: 30px;
     max-width: 350px;
     margin: 25px;
@@ -48,7 +50,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: #8B5E3C;
     }
     
     .part2_alimentation_Paragraphe1{
@@ -61,7 +62,6 @@
     
     .part2_alimentation_Paragraphe2{
         text-align: center;
-        color: #E0D4B4;
         font-size: 20px;
         max-width: 350px;
         margin: 15px;

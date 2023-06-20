@@ -1,4 +1,4 @@
-import './ImageTracker.css'
+import './ImageTracker.scss'
 
 import React, { useState } from 'react';
 

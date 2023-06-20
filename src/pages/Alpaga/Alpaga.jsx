@@ -1,4 +1,4 @@
-import './Alpaga.css'
+import './Alpaga.scss'
 import alpagaMain from "../../assets/mainAlpaga_cut.png";
 import alpagaBrown from "../../assets/alpagaBrown_cut.png";
 import cria from "../../assets/cria.jpg";
@@ -12,7 +12,7 @@ const Alpaga = () => {
         <div className='accueil'>
 
             <Accueil image={alpagaMain} title="Alpaga" texte={
-                <span>Les alpagas sont des animaux domestiques originaires d'Amérique du Sud, ils sont proches cousins des lamas,<span className="font color2"> des guanacos et des vigognes.</span>
+                <span>Les alpagas sont des animaux domestiques originaires d'Amérique du Sud, ils sont proches cousins des lamas,<span className="variationParagrapheAccueil"> des guanacos et des vigognes.</span>
                 </span>}> 
             </Accueil>
             

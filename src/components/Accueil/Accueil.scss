@@ -1,20 +1,19 @@
-.part1_AccueilType{
+@import '../../styles/index.scss';
+
+.part1_Accueil{
     display: flex;
-    justify-content: space-between;
-    margin-top: 200px;
-    margin-bottom: 300px;
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
 
-.alpagaMainContainerAccueilType{
-    width: 800px;
-    height: 400px;
+.alpagaMainContainer{
+    width: 500px;
+    height: 610px;
     max-width: 100%;
-    margin-right: 100px;
-    display: flex;
-    align-items: center;
+    margin-left: 100px;
 }
 
-.alpagaMainAccueilType{
+.alpagaMain{
     width: 100%;
     height: 100%;
     max-width: 100%;
@@ -22,22 +21,24 @@
     transition: transform 0.5s ease;
 }
 
-.alpagaMainAccueilType:hover{
-    transform: scale(1.1);
+.alpagaMain:hover{
+    transform: scale(1.2);
 }
 
-.partTexteAccueilType{
+.partTexteAccueil{
     margin-top: 100px;
-    margin-left: 50px;
-    max-width: 600px;
+    margin-left: 100px;
+    max-width: 800px;
 }
 
-.titleAccueilType{
-    font-size: 80px;
+.titleAccueil{
+    font-size: 128px;
     margin-bottom: 35px;
+    color: $primary-color;
+    font-family: $secondary-font;
 }
 
-.paragrapheTitleAccueilType{
+.paragrapheTitleAccueil{
     font-size: 40px;
     animation: slide-inText 2s ease forwards;
 }
@@ -54,26 +55,24 @@
 }
 
 @media only screen and (max-width: 767px) {
-    .part1_AccueilType{
+    .part1_Accueil{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         margin-top: 50px;
-        margin-bottom: 100px;
         padding-left: 15px;
         padding-right: 15px;
     }
     
-    .alpagaMainContainerAccueilType{
-        width: 450px;
+    .alpagaMainContainer{
+        width: 250px;
+        height: auto;
         max-width: 100%;
         margin-left: 0px;
-        margin-right: 0px;
-        margin-top: 50px;
     }
     
-    .alpagaMainAccueilType{
+    .alpagaMain{
         width: 100%;
         height: auto;
         max-width: 100%;
@@ -81,21 +80,21 @@
         transition: transform 0.5s ease;
     }
     
-    .alpagaMainAccueilType:hover{
+    .alpagaMain:hover{
         transform: scale(1.2);
     }
     
-    .partTexteAccueilType{
-        margin-top: 0px;
+    .partTexteAccueil{
+        margin-top: 50px;
         margin-left: 0px;
     }
     
-    .titleAccueilType{
-        font-size: 54px;
+    .titleAccueil{
+        font-size: 64px;
         margin-bottom: 35px;
     }
     
-    .paragrapheTitleAccueilType{
+    .paragrapheTitleAccueil{
         font-size: 25px;
         animation: slide-inText 2s ease forwards;
     }

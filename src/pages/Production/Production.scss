@@ -1,8 +1,10 @@
+@import '../../styles/index.scss';
+
 .part2_production{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #8B5E3C;
+  background-color: $secondary-color;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -46,6 +48,7 @@
   margin-top: 50px;
   margin-left: 50px;
   font-size: 80px;
+  color: $primary-color;
 }
 
 .image-container {
@@ -83,7 +86,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #8B5E3C;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 15px;

@@ -1,3 +1,5 @@
+@import '../../styles/index.scss';
+
 .header{
     margin-bottom: 150px;
 }
@@ -36,6 +38,8 @@
 .logotexte{
     font-size: 40px;
     margin-left: 10px;
+    color: $secondary-color;
+    font-family: $secondary-font;
 }
 
 .titleSite{
@@ -56,10 +60,10 @@
 .linkHeader{
     display: inline-block;
     padding: 10px 20px;
-    border: 2px solid #8B5E3C;
+    border: 2px solid $secondary-color;
     border-radius: 5px;
     background-color: #ffffff;
-    color: #8B5E3C;
+    color: $secondary-color;
     font-size: 18px;
     text-decoration: none;
     transition: all 0.3s ease-in-out;
@@ -67,7 +71,7 @@
 }
   
 .linkHeader:hover{
-    background-color: #E0D4B4;
+    background-color: $primary-color;
     color: #ffffff;
     border-color: #ffffff;
 }
@@ -75,9 +79,9 @@
 .linkLama{
     display: inline-block;
     padding: 10px 20px;
-    border: 2px solid #8B5E3C;
+    border: 2px solid $secondary-color;
     border-radius: 20px;
-    background-color: #8B5E3C;
+    background-color: $secondary-color;
     color: #ffffff;
     font-size: 18px;
     text-decoration: none;
@@ -86,7 +90,7 @@
 }
   
 .linkLama:hover{
-    background-color: #E0D4B4;
+    background-color: $primary-color;
     color: #ffffff;
     border-color: #ffffff;
 }
@@ -111,7 +115,7 @@
 .mobileMenuIcon .bar {
   width: 30px;
   height: 2px;
-  background-color: #8B5E3C;
+  background-color: $secondary-color;
   margin-bottom: 6px;
   transition: transform 0.3s ease-out;
 }
@@ -157,48 +161,9 @@
 }
 
 .mobileMenu nav a:hover {
-  background-color: #E0D4B4;
+  background-color: $primary-color;
   color: #ffffff;
   border-color: #ffffff;
-}
-
-@media (max-width: 767px) {
-
-    .headerContainer{
-        justify-content:flex-start;
-        padding: 15px;
-        background-color: #ffffff;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        z-index: 100;
-        transition: transform 0.3s ease-out;
-    }
-
-    .mobileMenuIcon {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 40px;
-        height: 40px;
-        cursor: pointer;
-    }
-
-    .containerNav {
-        display: none; /* Caché sur les appareils mobiles */
-    }
-
-    .linkHeader{
-        margin-left: 0px;
-    }
-
-    .linkLama{
-
-        margin-left: 0px;
-    }
-
 }
 
 .overlay {
@@ -216,4 +181,41 @@
 .overlay.active {
   display: block;
   pointer-events: auto;
+}
+
+@media (max-width: 767px) {
+  .headerContainer{
+      justify-content:flex-start;
+      padding: 15px;
+      background-color: #ffffff;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 100;
+      transition: transform 0.3s ease-out;
+  }
+
+  .mobileMenuIcon {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 40px;
+      height: 40px;
+      cursor: pointer;
+  }
+
+  .containerNav {
+      display: none; /* Caché sur les appareils mobiles */
+  }
+
+  .linkHeader{
+      margin-left: 0px;
+  }
+
+  .linkLama{
+
+      margin-left: 0px;
+  }
 }

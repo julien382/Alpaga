@@ -1,4 +1,4 @@
-import './Production.css';
+import './Production.scss';
 import React, { useState } from 'react';
 
 import ImageTracker from '../../components/ImageTracker/ImageTracker';
@@ -35,7 +35,7 @@ const Production = () => {
           <p className='part2_production_Paragraphe2'> La production de laine d'alpaga implique généralement la tonte régulière des animaux pour récolter leur toison.</p>
       </div>
       <div className='tonduFondu'>
-        <h1 className='titleTonduFondu font color1'>Tond l'alpaga :</h1>
+        <h1 className='titleTonduFondu font'>Tond l'alpaga :</h1>
         <div className="image-container">
           <img
             className='imagetonduFondu'

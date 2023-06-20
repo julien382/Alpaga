@@ -1,4 +1,4 @@
-import './Galerie.css'
+import './Galerie.scss'
 import alpagaMain from "../../assets/alpagaMountain_cut.png";
 import alpagablanc from "../../assets/2alpagablanc.jpg";
 import tonte from "../../assets/tonte.jpg";

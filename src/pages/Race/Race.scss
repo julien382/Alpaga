@@ -1,5 +1,12 @@
+@import '../../styles/index.scss';
+
+.variationParagrapheAccueilType{
+    color: $secondary-color;
+    font-family: $secondary-font;
+}
+
 .part2_race{
-    background-color: #8B5E3C;
+    background-color: $secondary-color;
     padding: 50px;
 }
 
@@ -7,6 +14,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.variationParagrapheRace{
+    color: $primary-color;
+    font-family: $secondary-font;
 }
 
 .part2_race_Paragraphe1{
@@ -52,7 +64,6 @@
 
 @media only screen and (max-width: 767px) {
     .part2_race{
-        background-color: #8B5E3C;
         padding: 15px;
         padding-bottom: 50px;
     }

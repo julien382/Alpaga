@@ -1,4 +1,4 @@
-import './AccueilType.css'
+import './AccueilType.scss'
 
 const AccueilType = ({image, title, texte}) => {
 
@@ -6,7 +6,7 @@ const AccueilType = ({image, title, texte}) => {
     return (
         <div className='part1_AccueilType'>
                 <div className='partTexteAccueilType'>
-                    <h1 className='titleAccueilType font color1'>{title}</h1>
+                    <h1 className='titleAccueilType font'>{title}</h1>
                     <p className='paragrapheTitleAccueilType'>{texte}</p>
                 </div>
                 <div className='alpagaMainContainerAccueilType'>  

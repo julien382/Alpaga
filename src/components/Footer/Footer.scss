@@ -1,10 +1,12 @@
+@import '../../styles/index.scss';
+
 .footer{
     display: flex;
     justify-content: center;
 }
 
 .footer > a{
-    color: #8B5E3C;
+    color: $secondary-color;
     font-size: 20px;
     font-weight: bold;
     margin: 25px;
@@ -19,7 +21,6 @@
     }
 
     .footer > a{
-        color: #8B5E3C;
         font-size: 10px;
         font-weight: bold;
         margin: 15px;

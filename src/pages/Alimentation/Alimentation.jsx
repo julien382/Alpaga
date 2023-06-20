@@ -1,4 +1,4 @@
-import './Alimentation.css'
+import './Alimentation.scss'
 import alpagaMain from "../../assets/alpagaAlimentation.png";
 import AccueilType from '../../components/AccueilType/AccueilType';
 

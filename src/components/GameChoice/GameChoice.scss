@@ -1,4 +1,4 @@
-/* --- gameChoice --- */
+@import '../../styles/index.scss';
 
 .gameChoice{
     display: flex;
@@ -16,13 +16,13 @@
 }
 
 .scoreBoardWin{
-    color: #E0D4B4;
+    color: $primary-color;
     font-size: 50px;
     font-weight: bold;
 }
 
 .titleGame{
-    color: #8B5E3C;
+    color: $secondary-color;
     font-size: 60px;
     font-weight: bold;
     margin-left: 80px;
@@ -30,7 +30,7 @@
 }
 
 .scoreBoardLoose{
-    color: #E0D4B4;
+    color: $primary-color;
     font-size: 50px;
     font-weight: bold;
 }
@@ -44,7 +44,7 @@
     margin: 0 auto;
     width: 400px;
     height: 400px;
-    background-color: #E0D4B4;
+    background-color: $primary-color;
     border-radius: 25px;
     transition: all 0.2s ease-in-out;
     margin: 50px;
@@ -72,13 +72,11 @@
     }
 
     .scoreBoardWin{
-        color: #E0D4B4;
         font-size: 45px;
         font-weight: bold;
     }
 
     .titleGame{
-        color: #8B5E3C;
         font-size: 48px;
         font-weight: bold;
         margin-left: 10px;
@@ -86,7 +84,6 @@
     }
 
     .scoreBoardLoose{
-        color: #E0D4B4;
         font-size: 45px;
         font-weight: bold;
     }
@@ -101,7 +98,6 @@
         margin: 0 auto;
         max-width: 200px;
         height: 200px;
-        background-color: #E0D4B4;
         border-radius: 25px;
         transition: all 0.2s ease-in-out;
         margin: 15px;

@@ -1,4 +1,4 @@
-import './Accueil.css'
+import './Accueil.scss'
 
 const Accueil = ({image, title, texte}) => {
 
@@ -9,7 +9,7 @@ const Accueil = ({image, title, texte}) => {
                     <img className='alpagaMain' src={image} alt="alpagaMain" />
                 </div>
                 <div className='partTexteAccueil'>
-                    <h1 className='titleAccueil font color1'>{title}</h1>
+                    <h1 className='titleAccueil font'>{title}</h1>
                     <p className='paragrapheTitleAccueil'>{texte}</p>
                 </div>
             </div>

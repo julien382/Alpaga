@@ -1,4 +1,4 @@
-import './GameChoice.css'
+import './GameChoice.scss'
 import { useEffect, useState } from 'react';
 
 import truemainAlpaga from "../../assets/2alpagablanc.jpg";
