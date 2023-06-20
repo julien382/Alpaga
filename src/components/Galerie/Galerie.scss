@@ -1,30 +1,58 @@
 @import '../../styles/index.scss';
 
-.gallery-container {
-    padding: 20px;
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+  padding-top: 0;
+}
+
+.gallery-item {
+  width: 25%; /* 4 columns for large screens */
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.square-crop {
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%; /* Creates a square aspect ratio */
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.gallery-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image fills the square container */
+}
+
+@media (max-width: 1024px) {
+  /* Medium screens */
+  .gallery-item {
+    width: 33.33%; /* 3 columns for medium screens */
   }
-  
-  .image-grid {
+}
+
+@media (max-width: 768px) {
+  /* Small screens */
+  .gallery {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    padding: 15px;
   }
-  
-  .image-item {
-    flex-basis: calc(33.33% - 10px);
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+  .gallery-item {
+    width: 50%; /* 2 columns for small screens */
   }
-  
-  .image-item img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
+}
+
+@media (max-width: 480px) {
+  /* Extra small screens */
+  .gallery-item {
+    width: 100%; /* 1 column for extra small screens */
   }
-  
-  .image-item img.horizontal {
-    max-height: calc(100% - 20px);
-  }
-  
+}
