@@ -1,4 +1,4 @@
-import './Error.css'
+import './Error.scss'
 
 import alpaga404 from "../../assets/alpaga404.png";
 
