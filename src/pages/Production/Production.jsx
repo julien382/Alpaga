@@ -35,7 +35,7 @@ const Production = () => {
           <p className='part2_production_Paragraphe2'> La production de laine d'alpaga implique généralement la tonte régulière des animaux pour récolter leur toison.</p>
       </div>
       <div className='tonduFondu'>
-        <h1 className='titleTonduFondu font'>Tond l'alpaga :</h1>
+        <h1 className='titleTonduFondu'>Tond l'alpaga :</h1>
         <div className="image-container">
           <img
             className='imagetonduFondu'

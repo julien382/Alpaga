@@ -99,9 +99,9 @@ const GameChoice = () => {
     return (
         <div className='gameChoice'>
                 <div className='containerScoreBoard'>
-                    <p className='scoreBoardWin font'>V: {scoreWin}</p>
-                    <p className='titleGame font'>Trouve l'alpaga:</p>
-                    <p className='scoreBoardLoose font'>X: {scoreLoose}</p>
+                    <p className='scoreBoardWin'>V: {scoreWin}</p>
+                    <p className='titleGame'>Trouve l'alpaga:</p>
+                    <p className='scoreBoardLoose'>X: {scoreLoose}</p>
                 </div>
                 <div className='picturesGame'>
                     {currentImages.map((image) => (
