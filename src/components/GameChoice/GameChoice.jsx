@@ -28,6 +28,10 @@ import truepexels2 from "../../assets/pexels-ali-atakan-açıkbaş-10595518.jpg"
 import truepexels3 from "../../assets/pexels-ali-atakan-açıkbaş-10595518.jpg";
 
 import falsemainAlpaga from "../../assets/lama/lama.png";
+import falseistockphoto from "../../assets/lama/istockphoto-1051777618-612x612.jpg";
+import falseistockphoto2 from "../../assets/lama/istockphoto-1136840631-612x612.jpg";
+import falseistockphoto3 from "../../assets/lama/istockphoto-1175720824-612x612.jpg";
+import falseistockphoto4 from "../../assets/lama/istockphoto-542826216-612x612.jpg";
 
 const allImagesTrue = [
     { src: truemainAlpaga, isCorrect: true},
@@ -59,7 +63,11 @@ const allImagesTrue = [
   ];
   
   const allImagesFalse = [
-    { src: falsemainAlpaga, isCorrect: false}
+    { src: falsemainAlpaga, isCorrect: false},
+    { src: falseistockphoto, isCorrect: false},
+    { src: falseistockphoto2, isCorrect: false},
+    { src: falseistockphoto3, isCorrect: false},
+    { src: falseistockphoto4, isCorrect: false},
   ];
 
 const GameChoice = () => {
