@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Alpaga/static/css/main.03250326.css",
-    "main.js": "/Alpaga/static/js/main.b2b58e9a.js",
+    "main.js": "/Alpaga/static/js/main.3eab0966.js",
     "static/js/787.eb370206.chunk.js": "/Alpaga/static/js/787.eb370206.chunk.js",
     "static/media/nadira-dean-nklvlXm5RU0-unsplash.jpg": "/Alpaga/static/media/nadira-dean-nklvlXm5RU0-unsplash.c2692cf4d1e9071763ac.jpg",
     "static/media/pexels-ali-atakan-açıkbaş-10595510.jpg": "/Alpaga/static/media/pexels-ali-atakan-açıkbaş-10595510.201b6f3e5aeeec16dafd.jpg",
@@ -28,7 +28,11 @@
     "static/media/tondu.png": "/Alpaga/static/media/tondu.7f76cb257203f4abfa98.png",
     "static/media/lama.png": "/Alpaga/static/media/lama.ba345646ebd8da7ecc88.png",
     "static/media/logoAlpaga.png": "/Alpaga/static/media/logoAlpaga.af56f97cbe9662498ee4.png",
+    "static/media/istockphoto-1136840631-612x612.jpg": "/Alpaga/static/media/istockphoto-1136840631-612x612.4e68674ecab5ed26cce1.jpg",
     "static/media/tonte.jpg": "/Alpaga/static/media/tonte.dea83a15c3c49cc6db27.jpg",
+    "static/media/istockphoto-1175720824-612x612.jpg": "/Alpaga/static/media/istockphoto-1175720824-612x612.593e0744c9e41dc2960f.jpg",
+    "static/media/istockphoto-542826216-612x612.jpg": "/Alpaga/static/media/istockphoto-542826216-612x612.aebf8c3cae2654b8af88.jpg",
+    "static/media/istockphoto-1051777618-612x612.jpg": "/Alpaga/static/media/istockphoto-1051777618-612x612.074036dd00665ed57874.jpg",
     "static/media/crias.jpg": "/Alpaga/static/media/crias.0347d485890abbb29c11.jpg",
     "static/media/istockphoto-640829652-612x612.jpg": "/Alpaga/static/media/istockphoto-640829652-612x612.74dc4c9565751cdecbee.jpg",
     "static/media/istockphoto-160558081-612x612.jpg": "/Alpaga/static/media/istockphoto-160558081-612x612.63e53d2ec044ede96335.jpg",
@@ -39,11 +43,11 @@
     "static/media/cursorTondeuse.cur": "/Alpaga/static/media/cursorTondeuse.de88220fe7d26dbc92aa.cur",
     "index.html": "/Alpaga/index.html",
     "main.03250326.css.map": "/Alpaga/static/css/main.03250326.css.map",
-    "main.b2b58e9a.js.map": "/Alpaga/static/js/main.b2b58e9a.js.map",
+    "main.3eab0966.js.map": "/Alpaga/static/js/main.3eab0966.js.map",
     "787.eb370206.chunk.js.map": "/Alpaga/static/js/787.eb370206.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.03250326.css",
-    "static/js/main.b2b58e9a.js"
+    "static/js/main.3eab0966.js"
   ]
 }
