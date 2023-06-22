@@ -27,6 +27,20 @@
     color: $primary-color;
     font-size: 30px;
     max-width: 600px;
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: slide-in-left 1s forwards;
+}
+
+@keyframes slide-in-left {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 .part2_ParagrapheRow{
