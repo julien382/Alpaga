@@ -33,6 +33,11 @@ import falseistockphoto2 from "../../assets/lama/istockphoto-1136840631-612x612.
 import falseistockphoto3 from "../../assets/lama/istockphoto-1175720824-612x612.jpg";
 import falseistockphoto4 from "../../assets/lama/istockphoto-542826216-612x612.jpg";
 
+import falselamaMountain from "../../assets/lama/lamaMountain.jpeg";
+import falsetetelama from "../../assets/lama/tetelama.jpeg";
+import falsefreephoto from "../../assets/lama/free-photo-of-nunca-tan-lejos-de-la-realidad.jpeg";
+import falsepexels from "../../assets/lama/pexels-photo-7831139.jpeg";
+
 const allImagesTrue = [
     { src: truemainAlpaga, isCorrect: true},
     { src: truealpacamange, isCorrect: true},
@@ -68,6 +73,10 @@ const allImagesTrue = [
     { src: falseistockphoto2, isCorrect: false},
     { src: falseistockphoto3, isCorrect: false},
     { src: falseistockphoto4, isCorrect: false},
+    { src: falselamaMountain, isCorrect: false},
+    { src: falsetetelama, isCorrect: false},
+    { src: falsefreephoto, isCorrect: false},
+    { src: falsepexels, isCorrect: false},
   ];
 
 const GameChoice = () => {
