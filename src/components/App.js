@@ -20,15 +20,17 @@ function App() {
   return (
     <div id="app">
       <Header />
-      <Routes>
-        <Route path="/" element={<Alpaga />} />
-        <Route path="/alimentation" element={<Alimentation />} />
-        <Route path="/race" element={<Race />} />
-        <Route path="/production" element={<Production />} />
-        <Route path="/galerie" element={<Galerie />} />
-        <Route path="/*" element={<Error />} />
-        <Route path="/lama" element={<Lama />} />
-      </Routes>
+      <main>
+        <Routes>
+          <Route path="/" element={<Alpaga />} />
+          <Route path="/alimentation" element={<Alimentation />} />
+          <Route path="/race" element={<Race />} />
+          <Route path="/production" element={<Production />} />
+          <Route path="/galerie" element={<Galerie />} />
+          <Route path="/*" element={<Error />} />
+          <Route path="/lama" element={<Lama />} />
+        </Routes>
+      </main>
       <Footer />
 
     </div>

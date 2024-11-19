@@ -6,21 +6,66 @@
 }
 
 .part2_Accueil{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 50px;
-    background-color: $secondary-color;
 }
 
-.part2_textContainer{
-    margin-left: 50px;
+.part2_mainText{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding: 70px;
+    border-radius: 25px;
+    background-color: $secondary-color;
+    margin: 15px;
 }
+
+.part2_containerTextImage{
+    display: flex;
+    height: 400px;
+}
+
+.part2_paragraphe1{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    padding: 70px;
+    border-radius: 25px;
+    background-color: $secondary-color;
+    margin: 15px;
+}
+
+.part2_imageContainer{
+    margin: 15px;
+    width: 60%;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.part2_image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.part2_containerPoidsParagraphe2{
+    display: flex;
+}
+
+.part2_paragraphe2{
+    display: flex;
+    align-items: center;
+    text-align: end;
+    font-size: 30px;
+    padding:50px;
+    border-radius: 25px;
+    background-color: $primary-color;
+    margin: 15px;
+}
+
+
+
+
 
 .part2_Paragraphe1{
     text-align: center;
@@ -33,75 +78,16 @@
 }
 
 @keyframes slide-in-left {
-  0% {
-    opacity: 0;
-    transform: translateX(-100%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
-.part2_ParagrapheRow{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 100px;
-}
-
-.part2_Paragraphe2{
-    text-align: start;
-    color: white;
-    font-size: 30px;
-    max-width: 400px;
-}
-
-.part2_Paragraphe3{
-    text-align: center;
-    color: $primary-color;
-    font-size: 30px;
-    margin-top: 100px;
-    max-width: 750px;
-    margin-left: 100px;
-}
-
-.part2_imageTextContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 1000px;
-    margin-right: 50px;
-}
-
-.part2_Paragraphe4{
-    text-align: end;
-    float: right;
-    color: white;
-    font-size: 30px;
-    margin-left: 50px;
-    max-width: 200px;
-}
-
-.part2_alpagaImageContainer{
-    width: 500px;
-    height: auto;
-    max-width: 100%;
-}
-
-.part2_alpagaImage{
-    width: 100%;
-    height: 100%;
-    max-width: 100%;
-    object-fit: contain;
-}
-
-.part2_Paragraphe5{
-    text-align: center;
-    color: white;
-    font-size: 30px;
-    margin-bottom: 100px;
-    max-width: 550px;
-}
 
 /* --- part3 --- */
 

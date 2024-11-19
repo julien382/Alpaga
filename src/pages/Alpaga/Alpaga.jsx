@@ -1,9 +1,13 @@
 import './Alpaga.scss'
 import alpagaMain from "../../assets/mainAlpaga_cut.png";
-import alpagaBrown from "../../assets/alpagaBrown_cut.png";
+import alpagaMarron from "../../assets/alpagaMarron.png";
 import cria from "../../assets/cria.jpg";
 import crias from "../../assets/crias.jpg";
 import Accueil from '../../components/Accueil/Accueil';
+import InfoVisuel from '../../components/InfoVisuel/InfoVisuel';
+import Size from '../../assets/icon/hauteur.png';
+import Poids from '../../assets/icon/poids.png';
+import Age from '../../assets/icon/age.png';
 
 const Alpaga = () => {
 
@@ -15,23 +19,37 @@ const Alpaga = () => {
                 <span>Les alpagas sont des animaux domestiques originaires d'Amérique du Sud, ils sont proches cousins des lamas,<span className="variationParagrapheAccueil"> des guanacos et des vigognes.</span>
                 </span>}> 
             </Accueil>
+
+
             
             <div className='part2_Accueil'>
-                <div className='part2_textContainer'>
-                    <p className='part2_Paragraphe1'>Les alpagas ont une silhouette élégante et gracile. Ils sont plus petits que les lamas, avec une hauteur au garrot allant de 81 à 99 cm environ. Leur pelage est dense, soyeux et disponible dans une large gamme de couleurs, notamment le blanc, le noir, le brun, le gris et le beige.</p>
-                    <div className='part2_ParagrapheRow'>
-                        <p className='part2_Paragraphe2'>Les alpagas sont des animaux dociles et curieux. Ils sont généralement amicaux et s'adaptent facilement à l'élevage.</p>
-                        <p className='part2_Paragraphe4'>La durée de vie moyenne d'un alpaga est d'environ 15 à 20 ans</p>
-                    </div>
-                    <p className='part2_Paragraphe3'>Les alpagas sont considérés comme une espèce domestique, mais certaines populations d'alpagas sauvages existent toujours dans les régions reculées des Andes. Des efforts de conservation sont déployés pour préserver la diversité génétique de ces populations sauvages.</p>
+                <div className='part2_mainText'>
+                    <p>Les alpagas sont considérés comme une espèce domestique, mais certaines populations d'alpagas sauvages existent toujours dans les régions reculées des Andes. Des efforts de conservation sont déployés pour préserver la diversité génétique de ces populations sauvages.</p>
                 </div>
-                <div className='part2_imageTextContainer'>
-                    <div className='part2_alpagaImageContainer'>
-                        <img className='part2_alpagaImage' src={alpagaBrown} alt="alpagaBrown" />
+                <div className='part2_containerTextImage'>
+                    <div className='part2_imageContainer'>
+                        <img className='part2_image' src={alpagaMarron} alt="alpagaMarron" />
                     </div>
-                    <p className='part2_Paragraphe5'> En général, les alpagas adultes pèsent entre 55 et 84 kg, avec une moyenne d'environ 65 kg pour les femelles et 75 kg pour les mâles.</p>
+                    <div className='part2_paragraphe1'>
+                        <p>Leur pelage est dense, soyeux et disponible dans une large gamme de couleurs, notamment le blanc, le noir, le brun, le gris et le beige.</p>
+                    </div>
+                    <InfoVisuel image={Size} text={<span>Plus petits que les lamas, avec une <strong>hauteur au garrot</strong> allant de 81 à 99 cm environ.</span>}/>
+
+                </div>
+                <div className='part2_containerPoidsParagraphe2'>
+                    <InfoVisuel image={Poids} text={"≃ 55 à 84 kg"}/>
+                    <InfoVisuel image={Age} text={"≃ 15 à 20 ans"}/>
+                    <div className='part2_paragraphe2'>
+                        <p>Ce sont des animaux dociles et curieux. Ils sont généralement amicaux et s'adaptent facilement à l'élevage.</p>
+                    </div>
+
                 </div>
             </div>
+
+
+
+
+
             <div className='part3_Accueil'>
                 <div className='part3_alpagaImageContainer'>  
                     <img className='part3_alpagaImage' src={crias} alt="alpagaBrown" />
