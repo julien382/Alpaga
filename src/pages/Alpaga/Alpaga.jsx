@@ -54,7 +54,9 @@ const Alpaga = () => {
                 <div className='part3_alpagaImageContainer'>  
                     <img className='part3_alpagaImage' src={crias} alt="alpagaBrown" />
                 </div>
-                <p className='part3_Paragraphe1'>Un bébé alpaga est appelé un "cria". Ils allaitent leur mère pendant plusieurs mois, dépendant entièrement du lait maternel pour leur nutrition. Ils commencent généralement à consommer progressivement de la végétation solide, comme l'herbe et le foin, autour de 2 à 3 semaines</p>
+                <div className='part3_Paragraphe1Container'>
+                    <p className='part3_Paragraphe1'><span className="highlight">Un bébé alpaga est appelé un "cria".</span> Ils allaitent leur mère pendant plusieurs mois, dépendant entièrement du lait maternel pour leur nutrition. Ils commencent généralement à consommer progressivement de la végétation solide, comme l'herbe et le foin, autour de 2 à 3 semaines</p>
+                </div>
                 <div className='part3_alpagaImageContainer'>
                     <img className='part3_alpagaImage' src={cria} alt="alpagaBrown" />
                 </div>
