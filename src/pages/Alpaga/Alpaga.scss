@@ -8,11 +8,10 @@
 .part2_mainText{
     display: flex;
     text-align: center;
-    color: white;
     font-size: $primary-font-size;
     padding: 70px;
     border-radius: 25px;
-    background-color: $secondary-color;
+    background-color: $primary-color;
     margin: 15px;
 }
 
@@ -24,11 +23,10 @@
 .part2_paragraphe1{
     display: flex;
     align-items: center;
-    color: white;
     font-size: $primary-font-size;
     padding: 70px;
     border-radius: 25px;
-    background-color: $secondary-color;
+    background-color: $tertiary-color;
     margin: 15px;
 }
 
