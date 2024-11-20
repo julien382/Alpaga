@@ -1,18 +1,15 @@
 @import '../../styles/index.scss';
 
-.variationParagrapheAccueil{
-    color: $secondary-color;
+.highlight{ 
     font-family: $secondary-font;
-}
-
-.part2_Accueil{
+    color: $secondary-color; 
 }
 
 .part2_mainText{
     display: flex;
     text-align: center;
     color: white;
-    font-size: 30px;
+    font-size: $primary-font-size;
     padding: 70px;
     border-radius: 25px;
     background-color: $secondary-color;
@@ -28,7 +25,7 @@
     display: flex;
     align-items: center;
     color: white;
-    font-size: 30px;
+    font-size: $primary-font-size;
     padding: 70px;
     border-radius: 25px;
     background-color: $secondary-color;
@@ -56,25 +53,19 @@
     display: flex;
     align-items: center;
     text-align: end;
-    font-size: 30px;
+    font-size: $primary-font-size;
     padding:50px;
     border-radius: 25px;
     background-color: $primary-color;
     margin: 15px;
 }
 
-
-
-
-
+/*
 .part2_Paragraphe1{
     text-align: center;
     color: $primary-color;
     font-size: 30px;
     max-width: 600px;
-    opacity: 0;
-    transform: translateX(-100%);
-    animation: slide-in-left 1s forwards;
 }
 
 @keyframes slide-in-left {
@@ -86,8 +77,7 @@
         opacity: 1;
         transform: translateX(0);
     }
-}
-
+}*/
 
 /* --- part3 --- */
 
@@ -95,7 +85,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 50px;
     padding-left: 50px;
     padding-right: 50px;
@@ -111,21 +101,15 @@
 .part3_Paragraphe1{
     background-color: $primary-color;
     text-align: center;
-    font-size: 30px;
+    font-size: $primary-font-size;
     width: 450px;
     margin: 25px;
     padding: 50px;
 }
 
-.highlight{ 
-    font-family: $secondary-font;
-    color: $secondary-color; 
-  }
-
 .part3_alpagaImage{
     border-radius: 25px;
 }
-
 
 
 @media only screen and (max-width: 767px) {
