@@ -34,3 +34,10 @@ $secondary-font-size: 30px;
 $tertiary-font-size: 100px;
 
 $secondary-font: 'Mansalva', cursive;
+
+@media only screen and (max-width: 767px) {
+  main{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
