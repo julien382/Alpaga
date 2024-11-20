@@ -4,6 +4,7 @@ import cria from "../../assets/cria.jpg";
 import crias from "../../assets/crias.jpg";
 import Accueil from '../../components/Accueil/Accueil';
 import InfosAnimal from '../../components/InfosAnimal/InfosAnimal';
+import alpagaMarron from "../../assets/alpagaMarron.png";
 
 
 const Alpaga = () => {
@@ -17,7 +18,15 @@ const Alpaga = () => {
                 </span>}> 
             </Accueil>
 
-            <InfosAnimal />
+            <InfosAnimal 
+                image={alpagaMarron}
+                text1={<span>Les alpagas sont considérés comme <strong>une espèce domestique</strong>, mais certaines populations d'alpagas sauvages existent toujours dans les régions reculées des Andes. Des efforts de conservation sont déployés pour préserver la diversité génétique de ces populations sauvages.</span>}
+                text2={<span><strong>Leur pelage</strong> est dense, soyeux et disponible dans une large gamme de couleurs, notamment <strong>le blanc, le noir, le brun, le gris et le beige.</strong></span>}
+                text3={<span>Ce sont <strong>des animaux dociles et curieux.</strong> Ils sont généralement <strong>amicaux</strong> et s'adaptent facilement à l'élevage.</span>}
+                textSize={<span>Plus petits que les lamas, avec une <strong>hauteur au garrot</strong> allant de <strong>81 à 99 cm</strong> environ.</span>}
+                textPoids={<strong>≃ 55 à 84 kg</strong>}
+                textAge={<strong>≃ 15 à 20 ans</strong>}
+            />
 
             <div className='part3_Accueil'>
                 <div className='part3_alpagaImageContainer'>  
