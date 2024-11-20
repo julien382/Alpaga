@@ -32,14 +32,14 @@
 }
 
 .titleAccueil{
-    font-size: 128px;
+    font-size: $tertiary-font-size;
     margin-bottom: 35px;
     color: $primary-color;
     font-family: $secondary-font;
 }
 
 .paragrapheTitleAccueil{
-    font-size: 40px;
+    font-size: $secondary-font-size;
     animation: slide-inText 2s ease forwards;
 }
 

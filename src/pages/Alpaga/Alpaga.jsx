@@ -16,7 +16,7 @@ const Alpaga = () => {
         <div className='accueil'>
 
             <Accueil image={alpagaMain} title="Alpaga" texte={
-                <span>Les alpagas sont des animaux domestiques originaires d'Amérique du Sud, ils sont proches cousins des lamas,<span className="highlight"> des guanacos et des vigognes.</span>
+                <span>Les alpagas sont des animaux domestiques originaires d'Amérique du Sud, ils sont proches cousins<span className="highlight"> des lamas, des guanacos et des vigognes.</span>
                 </span>}> 
             </Accueil>
 
