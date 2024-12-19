@@ -25,15 +25,36 @@ const Production = () => {
     <div className='production'>
       <AccueilType image={tonteDebout} title="Production" texte="Les alpagas sont élevés principalement pour leur laine de grande qualité."> 
       </AccueilType>
+
       <div className='productionImages'>
         <ImageTracker image={alpagablanc} />
         <ImageTracker image={laine} />
         <ImageTracker image={tonte} />
       </div>
+
       <div className='part2_production'>
-          <p className='part2_production_Paragraphe1'>Les alpagas produisent une laine de haute qualité et recherchée. La laine d'alpaga est appréciée pour sa douceur, sa légèreté et sa chaleur. Elle peut être transformée en fils, en tissus et en produits finis tels que des vêtements, des accessoires et des articles de décoration.</p>
-          <p className='part2_production_Paragraphe2'> La production de laine d'alpaga implique généralement la tonte régulière des animaux pour récolter leur toison.</p>
+        <div className='flex'>
+          <div className='part2_production_paragraphe1'>
+             <p>La production de laine d'alpaga implique généralement la tonte régulière des animaux pour récolter leur toison.</p>
+          </div>
+          <div className='part2_production_paragraphe2'>
+             <p>Pulls, écharpes, bonnets... la laine d'alpaga est un vrai bonheur à porter, en plus d'être résistante et hypoallergénique.</p>
+          </div>
+        </div>
+        <div className='flex'>
+          <div className='part2_production_paragraphe2'>
+             <p>Chaque année, au printemps, on tond délicatement sa toison. Après un bon nettoyage, les fibres sont transformées en fils, puis en vêtements et accessoires.</p>
+          </div>
+          <div className='part2_production_paragraphe2'>
+             <p>Avec leur épaisse toison, ils peuvent souffrir de la chaleur. La tonte les libère de ce poids et leur permet de réguler leur température corporelle plus facilement. Ils sont alors plus à l'aise pour se déplacer et profiter de l'été.</p>
+          </div>
+        </div>
+        <div className='part2_production_paragraphe1'>
+             <p>Avec leur épaisse toison, ils peuvent souffrir de la chaleur. La tonte les libère de ce poids et leur permet de réguler leur température corporelle plus facilement. Ils sont alors plus à l'aise pour se déplacer et profiter de l'été.</p>
+          </div>
+          
       </div>
+
       <div className='tonduFondu'>
         <h1 className='titleTonduFondu'>Tond l'alpaga :</h1>
         <div className="image-container">

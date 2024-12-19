@@ -2,29 +2,42 @@
 
 .part2_production{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: $secondary-color;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-.part2_production_Paragraphe1{
-  text-align: center;
-  color: white;
-  font-size: 30px;
-  max-width: 700px;
-  margin: 50px;
-  margin-right: 150px;
+.flex{
+  display: flex;
 }
 
-.part2_production_Paragraphe2{
+.part2_production_paragraphe1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  font-size: $primary-font-size;
+  padding: 70px;
+  border-radius: 25px;
+  background-color: $secondary-color;
+  margin: 15px;
   color: white;
-  font-size: 30px;
-  max-width: 300px;
-  margin: 50px;
 }
+
+.part2_production_paragraphe2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: $primary-font-size;
+  padding: 70px;
+  border-radius: 25px;
+  background-color: $primary-color;
+  margin: 15px;
+}
+
 
 @keyframes slide-inText {
   0% {
