@@ -1,5 +1,13 @@
 @import '../../styles/index.scss';
 
+.part2_alimentation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+
 .part2_alimentation_paragraphe1{
     display: flex;
     font-size: $primary-font-size;
@@ -19,36 +27,6 @@
     color: white;
 }
 
-.part2_alimentation{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 50px;
-}
-
-.part2_alimentation_Paragraphe1{
-    text-align: right;
-    color: white;
-    font-size: 30px;
-    max-width: 500px;
-    margin: 25px;
-}
-
-.part2_alimentation_Paragraphe2{
-    text-align: center;
-    color: $primary-color;
-    font-size: 30px;
-    max-width: 350px;
-    margin: 25px;
-}
-
-.part2_alimentation_Paragraphe3{
-    text-align: left;
-    color: white;
-    font-size: 30px;
-    max-width: 500px;
-    margin: 25px;
-}
 
 @keyframes slide-inText {
     0% {
