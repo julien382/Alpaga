@@ -106,23 +106,34 @@
     padding-right: 15px;
   }
   
-  .part2_production_Paragraphe1{
-    text-align: center;
-    color: white;
-    font-size: 20px;
-    max-width: 700px;
-    margin: 0px;
-    margin-right: 0px;
-  }
   
-  .part2_production_Paragraphe2{
-    text-align: center;
-    color: white;
-    font-size: 20px;
-    max-width: 300px;
-    margin: 0px;
-    margin-top: 50px;
+  .part2_production{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 15px;
+      padding-bottom: 50px;
   }
+
+  .flex{
+      display: flex;
+      flex-direction: column;
+  }
+
+  .part2_production_paragraphe1 {
+      font-size: calc($primary-font-size * 0.8); /* Réduction de la taille de la police */
+      padding: 30px; /* Réduction du padding */
+      margin: 10px; /* Réduction des marges */
+  }
+
+  .part2_production_paragraphe2 {
+      font-size: calc($primary-font-size * 0.8); /* Réduction de la taille de la police */
+      padding: 30px; /* Réduction du padding */
+      text-align: center; /* Centre le texte pour mobile */
+      margin: 10px; /* Réduction des marges */
+  }
+
 
   .titleTonduFondu{
     margin-top: 50px;
