@@ -1,55 +1,61 @@
 @import '../../styles/index.scss';
 
-.variationParagrapheAccueilType{
-    color: $secondary-color;
-    font-family: $secondary-font;
-}
-
-.part2_race{
-    background-color: $secondary-color;
-    padding: 50px;
-}
-
-.containerHuacanyas{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .variationParagrapheRace{
     color: $primary-color;
     font-family: $secondary-font;
 }
 
-.part2_race_Paragraphe1{
-    text-align: center;
-    color: white;
-    font-size: 30px;
-    max-width: 800px;
-    margin: 25px;
+.part2_race{
+    padding-top: 40px;
+    padding-bottom: 50px;
 }
 
-.containerSuris{
+.part2_race_huacayas{
     display: flex;
-    justify-content: space-between;
-    align-content: center;
 }
 
-.alpagaHuacayas{
-    max-width: 350px;
-}
-
-.alpagaSuris{
-    max-width: 400px;
-}
-
-.part2_race_Paragraphe2{
+.part2_race_paragraphe1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    font-size: $primary-font-size;
+    padding: 70px;
+    border-radius: 25px;
+    background-color: $secondary-color;
+    margin: 15px;
     color: white;
-    font-size: 30px;
-    max-width: 800px;
-    margin: 25px;
 }
+
+.part2_race_imageContainer{
+    margin: 15px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.part2_race_image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.part2_race_suris{
+    display: flex;
+}
+
+.part2_race_paragraphe2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: $primary-font-size;
+    padding: 70px;
+    border-radius: 25px;
+    background-color: $primary-color;
+    margin: 15px;
+}
+
 
 @keyframes slide-inText {
     0% {
