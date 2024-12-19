@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Alpaga/static/css/main.2ceb2445.css",
-    "main.js": "/Alpaga/static/js/main.217d54a8.js",
+    "main.css": "/Alpaga/static/css/main.cceb58c5.css",
+    "main.js": "/Alpaga/static/js/main.e1d83717.js",
     "static/js/787.8dbc9f68.chunk.js": "/Alpaga/static/js/787.8dbc9f68.chunk.js",
     "static/media/nadira-dean-nklvlXm5RU0-unsplash.jpg": "/Alpaga/static/media/nadira-dean-nklvlXm5RU0-unsplash.c2692cf4d1e9071763ac.jpg",
     "static/media/pexels-ali-atakan-açıkbaş-10595510.jpg": "/Alpaga/static/media/pexels-ali-atakan-açıkbaş-10595510.201b6f3e5aeeec16dafd.jpg",
@@ -13,7 +13,6 @@
     "static/media/damian-barczak-XIDi_OUMU-I-unsplash.jpg": "/Alpaga/static/media/damian-barczak-XIDi_OUMU-I-unsplash.73ecd1b912b18464b5ca.jpg",
     "static/media/alpagaMarron.png": "/Alpaga/static/media/alpagaMarron.67efb4b60b9c6d5d793d.png",
     "static/media/alpaca-gb3f7779e3_1920.jpg": "/Alpaga/static/media/alpaca-gb3f7779e3_1920.ea436aa9c08bfcd2dead.jpg",
-    "static/media/alpagaBrown_cut.png": "/Alpaga/static/media/alpagaBrown_cut.26cc10296f6dbebca701.png",
     "static/media/alpaca-gacb7ec03c_1920.jpg": "/Alpaga/static/media/alpaca-gacb7ec03c_1920.469021c6721a225c8a8e.jpg",
     "static/media/pexels-photo-7831139.jpeg": "/Alpaga/static/media/pexels-photo-7831139.73a78f52b6d1ac41c8da.jpeg",
     "static/media/tonteDebout.png": "/Alpaga/static/media/tonteDebout.d04aca85f01992d098b0.png",
@@ -43,15 +42,17 @@
     "static/media/laine.jpg": "/Alpaga/static/media/laine.080aaf1d42e39bf19046.jpg",
     "static/media/cria.jpg": "/Alpaga/static/media/cria.4bf60264ed88e2f616bc.jpg",
     "static/media/2alpagablanc.jpg": "/Alpaga/static/media/2alpagablanc.1d8e214ac3ea5685ad21.jpg",
+    "static/media/poids.png": "/Alpaga/static/media/poids.5acfe4b49a37e871e22b.png",
+    "static/media/age.png": "/Alpaga/static/media/age.f6c8fb74235bcdc22346.png",
     "static/media/cursorAlpaga.cur": "/Alpaga/static/media/cursorAlpaga.84e973537a0fb14e41f1.cur",
     "static/media/cursorTondeuse.cur": "/Alpaga/static/media/cursorTondeuse.de88220fe7d26dbc92aa.cur",
     "index.html": "/Alpaga/index.html",
-    "main.2ceb2445.css.map": "/Alpaga/static/css/main.2ceb2445.css.map",
-    "main.217d54a8.js.map": "/Alpaga/static/js/main.217d54a8.js.map",
+    "main.cceb58c5.css.map": "/Alpaga/static/css/main.cceb58c5.css.map",
+    "main.e1d83717.js.map": "/Alpaga/static/js/main.e1d83717.js.map",
     "787.8dbc9f68.chunk.js.map": "/Alpaga/static/js/787.8dbc9f68.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ceb2445.css",
-    "static/js/main.217d54a8.js"
+    "static/css/main.cceb58c5.css",
+    "static/js/main.e1d83717.js"
   ]
 }
