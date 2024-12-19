@@ -1,11 +1,28 @@
 @import '../../styles/index.scss';
 
+.part2_alimentation_paragraphe1{
+    display: flex;
+    font-size: $primary-font-size;
+    padding: 70px;
+    border-radius: 25px;
+    background-color: $primary-color;
+    margin: 15px;
+}
+
+.part2_alimentation_paragraphe2{
+    display: flex;
+    font-size: $primary-font-size;
+    padding: 70px;
+    border-radius: 25px;
+    background-color: $secondary-color;
+    margin: 15px;
+    color: white;
+}
+
 .part2_alimentation{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: $secondary-color;
-    padding-top: 50px;
     padding-bottom: 50px;
 }
 
