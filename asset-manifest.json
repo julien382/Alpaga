@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Alpaga/static/css/main.8b289292.css",
+    "main.css": "/Alpaga/static/css/main.69e3c6d2.css",
     "main.js": "/Alpaga/static/js/main.e1d83717.js",
     "static/js/787.8dbc9f68.chunk.js": "/Alpaga/static/js/787.8dbc9f68.chunk.js",
     "static/media/nadira-dean-nklvlXm5RU0-unsplash.jpg": "/Alpaga/static/media/nadira-dean-nklvlXm5RU0-unsplash.c2692cf4d1e9071763ac.jpg",
@@ -47,12 +47,12 @@
     "static/media/cursorAlpaga.cur": "/Alpaga/static/media/cursorAlpaga.84e973537a0fb14e41f1.cur",
     "static/media/cursorTondeuse.cur": "/Alpaga/static/media/cursorTondeuse.de88220fe7d26dbc92aa.cur",
     "index.html": "/Alpaga/index.html",
-    "main.8b289292.css.map": "/Alpaga/static/css/main.8b289292.css.map",
+    "main.69e3c6d2.css.map": "/Alpaga/static/css/main.69e3c6d2.css.map",
     "main.e1d83717.js.map": "/Alpaga/static/js/main.e1d83717.js.map",
     "787.8dbc9f68.chunk.js.map": "/Alpaga/static/js/787.8dbc9f68.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b289292.css",
+    "static/css/main.69e3c6d2.css",
     "static/js/main.e1d83717.js"
   ]
 }
