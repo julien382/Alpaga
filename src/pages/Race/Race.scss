@@ -68,51 +68,44 @@
     }
 }
 
+.part2_alimentation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 @media only screen and (max-width: 767px) {
     .part2_race{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         padding: 15px;
         padding-bottom: 50px;
     }
-    
-    .containerHuacanyas{
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: space-between;
-        align-items: center;
-    }
-    
-    .part2_race_Paragraphe1{
-        text-align: center;
-        color: white;
-        font-size: 20px;
-        max-width: 800px;
-        margin: 0px;
-    }
-    
-    .containerSuris{
+
+    .part2_race_huacayas{
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        align-content: center;
+    }
+
+    .part2_race_paragraphe1 {
+        font-size: calc($primary-font-size * 0.8); /* Réduction de la taille de la police */
+        padding: 30px; /* Réduction du padding */
+        margin: 10px; /* Réduction des marges */
+    }
+
+    .part2_race_suris{
+        display: flex;
+        flex-direction: column-reverse;
     }
     
-    .alpagaHuacayas{
-        max-width: 250px;
-        margin-top: 50px;
-        margin-bottom: 50px;
+    .part2_race_paragraphe2 {
+        font-size: calc($primary-font-size * 0.8); /* Réduction de la taille de la police */
+        padding: 30px; /* Réduction du padding */
+        text-align: center; /* Centre le texte pour mobile */
+        margin: 10px; /* Réduction des marges */
     }
     
-    .alpagaSuris{
-        max-width: 400px;
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
-    
-    .part2_race_Paragraphe2{
-        text-align: center;
-        color: white;
-        font-size: 20px;
-        max-width: 800px;
-        margin: 0px;
-    }
 }
