@@ -50,7 +50,7 @@ const Production = () => {
           </div>
         </div>
         <div className='part2_production_paragraphe1'>
-             <p>Avec leur épaisse toison, ils peuvent souffrir de la chaleur. La tonte les libère de ce poids et leur permet de réguler leur température corporelle plus facilement. Ils sont alors plus à l'aise pour se déplacer et profiter de l'été.</p>
+             <p>En plus de ses qualités exceptionnelles, la laine d'alpaga est respectueuse de l'environnement. Les alpagas ont un faible impact écologique : ils broutent sans abîmer les sols, et leur tonte ne nuit pas à leur bien-être. Opter pour la laine d'alpaga, c'est privilégier une mode éco-responsable et soutenir une production respectueuse des animaux et de la planète.</p>
           </div>
           
       </div>
