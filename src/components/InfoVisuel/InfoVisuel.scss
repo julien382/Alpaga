@@ -29,7 +29,23 @@
 }
 
 @media only screen and (max-width: 767px) {
-    .InfoVisuel{
-        margin: 10px;
+    .InfoVisuel {
+        font-size: calc($primary-font-size * 0.8); /* Réduction de la taille de la police */
+        padding: 20px; /* Réduction du padding */
+        margin: 10px; /* Réduction des marges */
+    }
+
+    .circle {
+        width: 80px; /* Réduction de la taille des cercles */
+        height: 80px; /* Réduction de la taille des cercles */
+        margin-bottom: 20px; /* Moins d'espace en bas */
+        justify-content: center;
+        align-items: center;
+    }
+
+    .InfoVisuelImage {
+        padding: 10px; /* Réduction du padding autour de l'image */
+        width: 50%;
+        height: 50%;
     }
 }
