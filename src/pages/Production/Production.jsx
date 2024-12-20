@@ -35,22 +35,22 @@ const Production = () => {
       <div className='part2_production'>
         <div className='flex'>
           <div className='part2_production_paragraphe1'>
-             <p>La production de laine d'alpaga implique généralement la tonte régulière des animaux pour récolter leur toison.</p>
+             <p><strong>La production</strong> de laine d'alpaga implique généralement la <strong>tonte régulière</strong> des animaux pour récolter leur toison.</p>
           </div>
           <div className='part2_production_paragraphe2'>
-             <p>Pulls, écharpes, bonnets... la laine d'alpaga est un vrai bonheur à porter, en plus d'être résistante et hypoallergénique.</p>
+             <p><strong>Pulls, écharpes, bonnets</strong>... la laine d'alpaga est un vrai bonheur à porter, en plus d'être <strong>résistante et hypoallergénique</strong>.</p>
           </div>
         </div>
         <div className='flex'>
           <div className='part2_production_paragraphe2'>
-             <p>Chaque année, au printemps, on tond délicatement sa toison. Après un bon nettoyage, les fibres sont transformées en fils, puis en vêtements et accessoires.</p>
+             <p>Chaque année, <strong>au printemps</strong>, on tond délicatement sa toison. Après un bon nettoyage, les fibres sont transformées en fils, puis en vêtements et accessoires.</p>
           </div>
           <div className='part2_production_paragraphe2'>
-             <p>Avec leur épaisse toison, ils peuvent souffrir de la chaleur. La tonte les libère de ce poids et leur permet de réguler leur température corporelle plus facilement. Ils sont alors plus à l'aise pour se déplacer et profiter de l'été.</p>
+             <p>Avec leur épaisse toison, <strong>ils peuvent souffrir de la chaleur</strong>. <strong>La tonte les libère</strong> de ce poids et leur permet de réguler leur température corporelle plus facilement. Ils sont alors plus à l'aise pour se déplacer et profiter de l'été.</p>
           </div>
         </div>
         <div className='part2_production_paragraphe1'>
-             <p>En plus de ses qualités exceptionnelles, la laine d'alpaga est respectueuse de l'environnement. Les alpagas ont un faible impact écologique : ils broutent sans abîmer les sols, et leur tonte ne nuit pas à leur bien-être. Opter pour la laine d'alpaga, c'est privilégier une mode éco-responsable et soutenir une production respectueuse des animaux et de la planète.</p>
+             <p>En plus de ses qualités exceptionnelles, la laine d'alpaga est respectueuse de l'environnement. Les alpagas ont un <strong>faible impact écologique</strong> : ils broutent sans abîmer les sols, et leur tonte ne nuit pas à leur bien-être. Opter pour la laine d'alpaga, c'est privilégier une mode éco-responsable et soutenir une production respectueuse des animaux et de la planète.</p>
           </div>
           
       </div>

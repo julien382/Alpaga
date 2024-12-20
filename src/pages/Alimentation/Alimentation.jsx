@@ -11,10 +11,10 @@ const Alimentation = () => {
             </AccueilType>
             <div className='part2_alimentation'>
                 <div className='part2_alimentation_paragraphe1'>
-                    <p>L’herbe est leur aliment principal. Ils adorent brouter dans les prairies</p>
+                    <p><strong>L’herbe</strong> est leur <strong>aliment principal.</strong> Ils adorent brouter dans les prairies</p>
                 </div>
                 <div className='part2_alimentation_paragraphe2'>
-                    <p>Le foin est un complément important, surtout en hiver ou lorsque l'herbe est moins abondante. Des compléments minéraux et vitaminés peuvent être nécessaires pour assurer un apport équilibré en nutriments.</p>
+                    <p><strong>Le foin est un complément important</strong>, surtout en hiver ou lorsque l'herbe est moins abondante. Des compléments minéraux et vitaminés peuvent être nécessaires pour assurer un apport équilibré en nutriments.</p>
                 </div>
 
             </div>
