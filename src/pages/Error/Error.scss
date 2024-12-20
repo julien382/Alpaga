@@ -33,7 +33,7 @@
 }
 
 .alpaga404{
-    position: absolute;
+    position: fixed;
     left: 0;
     bottom: 0;
     max-width: 320px;
@@ -50,24 +50,25 @@
     /* --- Error 404 --- */
 
     .error404{
+        margin-top: 0px;
         font-size: 96px;
     }
     
     .messageError{
         font-size: 18px;
-        margin-top: 66px;
+        margin-top: 10px;
     }
     
     .errorBackHome{
         font-size: 14px;
-        margin-top: 100px;
+        margin-top: 50px;
         margin-bottom: 300px;
     }
 
     .alpaga404{
         position: absolute;
         left: 0;
-        bottom: 0;
+        bottom: 0px;
         max-width: 150px;
         transform-origin: bottom left;
         transition: transform 0.5s ease;
