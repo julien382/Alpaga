@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Alpaga/static/css/main.c893eae4.css",
-    "main.js": "/Alpaga/static/js/main.e1d83717.js",
+    "main.css": "/Alpaga/static/css/main.1aa0420f.css",
+    "main.js": "/Alpaga/static/js/main.8b929967.js",
     "static/js/787.8dbc9f68.chunk.js": "/Alpaga/static/js/787.8dbc9f68.chunk.js",
     "static/media/nadira-dean-nklvlXm5RU0-unsplash.jpg": "/Alpaga/static/media/nadira-dean-nklvlXm5RU0-unsplash.c2692cf4d1e9071763ac.jpg",
     "static/media/pexels-ali-atakan-açıkbaş-10595510.jpg": "/Alpaga/static/media/pexels-ali-atakan-açıkbaş-10595510.201b6f3e5aeeec16dafd.jpg",
@@ -47,12 +47,12 @@
     "static/media/cursorAlpaga.cur": "/Alpaga/static/media/cursorAlpaga.84e973537a0fb14e41f1.cur",
     "static/media/cursorTondeuse.cur": "/Alpaga/static/media/cursorTondeuse.de88220fe7d26dbc92aa.cur",
     "index.html": "/Alpaga/index.html",
-    "main.c893eae4.css.map": "/Alpaga/static/css/main.c893eae4.css.map",
-    "main.e1d83717.js.map": "/Alpaga/static/js/main.e1d83717.js.map",
+    "main.1aa0420f.css.map": "/Alpaga/static/css/main.1aa0420f.css.map",
+    "main.8b929967.js.map": "/Alpaga/static/js/main.8b929967.js.map",
     "787.8dbc9f68.chunk.js.map": "/Alpaga/static/js/787.8dbc9f68.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c893eae4.css",
-    "static/js/main.e1d83717.js"
+    "static/css/main.1aa0420f.css",
+    "static/js/main.8b929967.js"
   ]
 }
