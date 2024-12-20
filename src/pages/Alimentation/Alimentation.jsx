@@ -7,7 +7,7 @@ const Alimentation = () => {
 
     return (
         <div className='alimentation'>
-            <AccueilType image={alpagaMain} title="Alimentation" texte="Les alpagas sont des animaux herbivores qui ont besoin d'une alimentation équilibrée et nutritive pour maintenir leur santé et leur bien-être."> 
+            <AccueilType image={alpagaMain} title="Alimentation" texte={<span>Les alpagas sont <span className="highlight">des animaux herbivores</span> qui ont besoin d'une alimentation équilibrée et nutritive pour maintenir leur santé et leur bien-être.</span>}> 
             </AccueilType>
             <div className='part2_alimentation'>
                 <div className='part2_alimentation_paragraphe1'>

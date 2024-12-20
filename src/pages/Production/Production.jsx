@@ -23,7 +23,7 @@ const Production = () => {
 
   return (
     <div className='production'>
-      <AccueilType image={tonteDebout} title="Production" texte="Les alpagas sont élevés principalement pour leur laine de grande qualité."> 
+      <AccueilType image={tonteDebout} title="Production" texte={<span>Les alpagas sont élevés principalement pour leur <span className="highlight">laine de grande qualité.</span></span>}> 
       </AccueilType>
 
       <div className='productionImages'>
